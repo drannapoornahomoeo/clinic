@@ -2,7 +2,7 @@ name: Keep Supabase awake
 
 on:
   schedule:
-    - cron: "17 3 */3 * *"
+    - cron: "17 3 * * *"
   workflow_dispatch:
 
 jobs:
@@ -14,4 +14,4 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         run: |
-          curl -fsS "$SUPABASE_URL/rest/v1/settings?select=user_id&limit=1" -H "apikey: $SUPABASE_KEY" -H "Authorization: Bearer $SUPABASE_KEY"
+          curl -fsS -X POST "$SUPABASE_URL/rest/v1/rpc/keepalive" -H "apikey: $SUPABASE_KEY" -H "Content-Type: application/json" -d '{}'
