@@ -1,1145 +1,795 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#1d3a9e">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="mobile-web-app-capable" content="yes">
-<link rel="manifest" href="manifest.webmanifest">
-<link rel="icon" href="icon.svg">
-<link rel="apple-touch-icon" href="icon.svg">
-<title>Clinic Invoices</title>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<!-- ─── PRIMARY SEO META TAGS ─── -->
+<title>Dr. Annapoorna | Homoeopathy Doctor in Kodigehalli, Bengaluru | Advaita Homoeo Clinic</title>
+<meta name="description" content="Dr. Annapoorna (BHMS, MD, SCPH) – Trusted homoeopathy specialist at Advaita Homoeo Clinic, Kodigehalli, Bengaluru. Expert in chronic disease, PCOD, skin, asthma, arthritis & paediatric care. Book: +91 63611 29208."/>
+<meta name="keywords" content="homeopathy doctor Kodigehalli, homeopathy clinic Bengaluru, Dr Annapoorna homoeopathy, Advaita Homoeo Clinic, PCOD homeopathy Bengaluru, skin eczema homeopathy, asthma homeopathy treatment, homoeopathy specialist Rajiv Gandhi Nagar, BHMS MD doctor Bengaluru, classical homoeopathy Bengaluru"/>
+<meta name="author" content="Dr. Annapoorna, Advaita Homoeo Clinic"/>
+<meta name="robots" content="index, follow"/>
+<meta name="geo.region" content="IN-KA"/>
+<meta name="geo.placename" content="Kodigehalli, Bengaluru, Karnataka"/>
+<meta name="geo.position" content="13.0709;77.5753"/>
+<meta name="ICBM" content="13.0709, 77.5753"/>
+<link rel="canonical" href="https://www.advaitahomoeo.in/"/>
+
+<!-- ─── OPEN GRAPH (WhatsApp / Facebook preview) ─── -->
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://www.advaitahomoeo.in/"/>
+<meta property="og:title" content="Dr. Annapoorna | Homoeopathy Specialist – Advaita Homoeo Clinic, Bengaluru"/>
+<meta property="og:description" content="Expert homoeopathic care for chronic disease, skin conditions, PCOD, asthma, arthritis & children. Located in Kodigehalli, Bengaluru. Call +91 63611 29208."/>
+<meta property="og:image" content="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&auto=format&fit=crop&q=80"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+<meta property="og:locale" content="en_IN"/>
+<meta property="og:site_name" content="Advaita Homoeo Clinic"/>
+
+<!-- ─── TWITTER CARD ─── -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Dr. Annapoorna | Homoeopathy Specialist – Bengaluru"/>
+<meta name="twitter:description" content="Classical homoeopathy for chronic disease, skin, PCOD, asthma & paediatric care. Advaita Homoeo Clinic, Kodigehalli, Bengaluru. +91 63611 29208"/>
+<meta name="twitter:image" content="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&auto=format&fit=crop&q=80"/>
+
+<!-- ─── STRUCTURED DATA: LocalBusiness + Physician (JSON-LD) ─── -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["MedicalBusiness", "LocalBusiness"],
+      "@id": "https://www.advaitahomoeo.in/#clinic",
+      "name": "Advaita Homoeo Clinic",
+      "alternateName": "Advaita Homeopathy Clinic",
+      "description": "Advaita Homoeo Clinic offers classical and clinical homoeopathic treatment for chronic diseases, skin conditions, PCOD, asthma, arthritis, paediatric care and women's health in Kodigehalli, Bengaluru.",
+      "url": "https://www.advaitahomoeo.in/",
+      "telephone": "+916361129208",
+      "priceRange": "₹₹",
+      "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&auto=format&fit=crop&q=80",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Canara Bank Layout, Rajiv Gandhi Nagar",
+        "addressLocality": "Kodigehalli",
+        "addressRegion": "Karnataka",
+        "postalCode": "560097",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 13.0709,
+        "longitude": 77.5753
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+          "opens": "11:00",
+          "closes": "13:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+          "opens": "17:30",
+          "closes": "20:30"
+        }
+      ],
+      "hasMap": "https://maps.app.goo.gl/aeyiVC6dor48yZGx5",
+      "sameAs": [
+        "https://maps.app.goo.gl/aeyiVC6dor48yZGx5"
+      ],
+      "medicalSpecialty": "Homeopathic Medicine",
+      "availableService": [
+        "Homoeopathy for Chronic Disease",
+        "PCOD Treatment",
+        "Skin Eczema Treatment",
+        "Asthma Treatment",
+        "Arthritis Treatment",
+        "Paediatric Homoeopathy",
+        "Women's Health",
+        "Thyroid Treatment",
+        "Mental Wellness",
+        "Digestive Disorders"
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "20",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    },
+    {
+      "@type": "Physician",
+      "@id": "https://www.advaitahomoeo.in/#doctor",
+      "name": "Dr. Annapoorna",
+      "jobTitle": "Homoeopathic Physician",
+      "description": "Dr. Annapoorna (BHMS, MD, SCPH) is a classical homoeopathic specialist with over 10 years of experience treating chronic and acute conditions at Advaita Homoeo Clinic, Kodigehalli, Bengaluru.",
+      "telephone": "+916361129208",
+      "worksFor": {
+        "@id": "https://www.advaitahomoeo.in/#clinic"
+      },
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "degree",
+          "name": "Bachelor of Homoeopathic Medicine and Surgery (BHMS)"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "degree",
+          "name": "MD (Homoeopathy)"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "Specialisation in Classical and Practical Homoeopathy (SCPH)"
+        }
+      ],
+      "medicalSpecialty": "Homeopathic Medicine",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Canara Bank Layout, Rajiv Gandhi Nagar",
+        "addressLocality": "Kodigehalli",
+        "addressRegion": "Karnataka",
+        "postalCode": "560097",
+        "addressCountry": "IN"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Where is Advaita Homoeo Clinic located?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Advaita Homoeo Clinic is located at Canara Bank Layout, Rajiv Gandhi Nagar, Kodigehalli, Bengaluru, Karnataka – 560097. It is conveniently accessible from Yelahanka, Hebbal, Mathikere and Rajajinagar."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are the clinic timings?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The clinic is open Monday to Saturday, 11:00 AM – 1:00 PM (morning) and 5:30 PM – 8:30 PM (evening). Sunday appointments are available on request."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I book an appointment with Dr. Annapoorna?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can book an appointment by calling or WhatsApping +91 63611 29208. Walk-ins are also welcome during clinic hours."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What conditions does Dr. Annapoorna treat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dr. Annapoorna treats a wide range of conditions including PCOD, skin eczema, psoriasis, asthma, arthritis, thyroid disorders, anxiety, digestive issues, paediatric conditions, and women's health concerns using classical homoeopathy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is homoeopathy safe for children?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, homoeopathic medicines are completely safe for children of all ages including newborns. They are natural, non-toxic, and have no harmful side effects."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<!-- ─── PERFORMANCE: Preload hero image ─── -->
+<link rel="preload" as="image" href="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1600&auto=format&fit=crop&q=85"/>
+
+<!-- ─── FONTS ─── -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Nunito:wght@300;400;500;600&display=swap" rel="stylesheet"/>
 <style>
-  :root{--bg:#f3f5fb;--card:#fff;--ink:#0f172a;--mute:#64748b;--line:#e6eaf3;--brand:#2563eb;--green:#16a34a;--greenbg:#e5f8ed;--amber:#d97706;--amberbg:#fff3de;--red:#dc2626;--redbg:#fde8e8;--violet:#7c3aed;--bluebg:#e6efff;--shadow:0 1px 2px rgba(15,23,42,.05),0 6px 18px rgba(15,23,42,.06)}
-  @media (prefers-color-scheme:dark){:root{--bg:#0b1020;--card:#141b2e;--ink:#e8ecf6;--mute:#93a0ba;--line:#232d45;--brand:#6b9bff;--green:#4ade80;--greenbg:#11301f;--amber:#fbbf24;--amberbg:#35260f;--red:#f87171;--redbg:#3a1818;--violet:#a78bfa;--bluebg:#172447;--shadow:0 1px 2px rgba(0,0,0,.4)}}
-  *{box-sizing:border-box}
-  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 "Segoe UI",system-ui,-apple-system,Roboto,sans-serif;-webkit-font-smoothing:antialiased}
-  button{font:inherit;cursor:pointer;border:0}
-  svg.i{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
-  h1,h2,h3{margin:0}
-  a{color:inherit;text-decoration:none}
+:root {
+  --navy:    #0b2d5e;
+  --blue:    #1a5fa8;
+  --mid:     #2e80d0;
+  --sky:     #e3f2fd;
+  --pale:    #f0f7ff;
+  --azure:   #5ba4d8;
+  --white:   #ffffff;
+  --gold:    #c9a84c;
+  --text:    #1a2e45;
+  --muted:   #5b7a99;
+  --light:   #dceefb;
+  --r:       16px;
+  --sh:      0 6px 36px rgba(26,95,168,.12);
+  --sh2:     0 12px 56px rgba(26,95,168,.18);
+}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Nunito',sans-serif;background:var(--pale);color:var(--text);overflow-x:hidden}
+::-webkit-scrollbar{width:5px}::-webkit-scrollbar-thumb{background:var(--azure);border-radius:3px}
 
-  /* layout */
-  .shell{display:flex;min-height:100vh}
-  .side{width:244px;flex:none;background:linear-gradient(185deg,#0e1b4d 0%,#1d3a9e 100%);color:#fff;padding:22px 14px;position:sticky;top:0;height:100vh;display:flex;flex-direction:column}
-  .brand{display:flex;align-items:center;gap:11px;font-weight:800;font-size:17px;margin:0 6px 26px;line-height:1.15}
-  .brand small{display:block;font-weight:500;font-size:12px;opacity:.7}
-  .logo{width:40px;height:40px;border-radius:12px;background:linear-gradient(135deg,#38bdf8,#2563eb);display:grid;place-items:center;box-shadow:0 4px 12px rgba(56,189,248,.4);flex:none}
-  .logo svg{width:22px;height:22px;stroke:#fff;stroke-width:2.4}
-  .nb{display:flex;align-items:center;gap:12px;width:100%;padding:12px 14px;border-radius:12px;background:none;color:#c7d2fe;font-weight:600;margin-bottom:4px;text-align:left;position:relative}
-  .nb:hover{background:rgba(255,255,255,.1)}
-  .nb.on{background:#fff;color:#1d4ed8;box-shadow:0 4px 14px rgba(0,0,0,.2)}
-  .badge{margin-left:auto;background:#ef4444;color:#fff;font-size:11px;font-weight:700;border-radius:99px;padding:1px 7px;min-width:20px;text-align:center}
-  .side .sp{flex:1}
-  .main{flex:1;min-width:0;padding:26px 30px 48px;max-width:1120px}
-  .top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:20px}
-  .top h1{font-size:26px;font-weight:800;letter-spacing:-.3px}
-  .top .sub{color:var(--mute);margin-top:2px}
-  .tabbar{display:none}
-  .page{display:none}.page.on{display:block}
+/* ─── NAV ─── */
+nav{position:fixed;top:0;left:0;right:0;z-index:999;height:68px;display:flex;align-items:center;justify-content:space-between;padding:0 5%;background:rgba(240,247,255,.96);backdrop-filter:blur(18px);border-bottom:1px solid rgba(26,95,168,.1);box-shadow:0 2px 24px rgba(26,95,168,.08)}
+.nav-logo{display:flex;align-items:center;gap:10px;text-decoration:none}
+.nav-logo .lm{width:40px;height:40px;border-radius:10px;background:linear-gradient(135deg,var(--mid),var(--navy));display:flex;align-items:center;justify-content:center;color:#fff;font-size:1.25rem;box-shadow:0 4px 14px rgba(26,95,168,.3)}
+.nav-logo .lt .ln{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--navy);display:block;line-height:1.2}
+.nav-logo .lt .ls{font-size:.65rem;color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
+nav ul{list-style:none;display:flex;gap:.2rem;align-items:center}
+nav ul li a{padding:7px 13px;border-radius:8px;text-decoration:none;font-size:.82rem;font-weight:600;color:var(--text);transition:all .2s}
+nav ul li a:hover{background:var(--sky);color:var(--blue)}
+.ncta{background:linear-gradient(135deg,var(--mid),var(--navy))!important;color:#fff!important;border-radius:30px!important;padding:9px 22px!important;box-shadow:0 4px 16px rgba(26,95,168,.3)!important}
+.ncta:hover{transform:translateY(-2px)!important;box-shadow:0 8px 24px rgba(26,95,168,.42)!important;background:linear-gradient(135deg,var(--mid),var(--navy))!important}
 
-  /* cards & grids */
-  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:var(--shadow);margin-bottom:16px}
-  .sec-h{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:12px}
-  .sec-h h2{font-size:16px;font-weight:700}
-  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:18px}
-  .stat{border-radius:16px;padding:16px 16px 14px;color:#fff;box-shadow:var(--shadow);cursor:pointer;position:relative;overflow:hidden;text-align:left}
-  .stat::after{content:"";position:absolute;right:-24px;top:-24px;width:90px;height:90px;border-radius:50%;background:rgba(255,255,255,.16)}
-  .stat .ic{width:36px;height:36px;border-radius:10px;background:rgba(255,255,255,.22);display:grid;place-items:center;margin-bottom:10px}
-  .stat .v{font-size:26px;font-weight:800;letter-spacing:-.5px;line-height:1.1}
-  .stat .l{font-size:13px;font-weight:600;opacity:.92;margin-top:2px}
-  .s-blue{background:linear-gradient(135deg,#3b82f6,#1e40af)}
-  .s-orange{background:linear-gradient(135deg,#fb923c,#e11d48)}
-  .s-green{background:linear-gradient(135deg,#34d399,#047857)}
-  .s-violet{background:linear-gradient(135deg,#a78bfa,#6d28d9)}
+/* ─── HERO – Layout 2: Full Bleed Centred ─── */
+#home{min-height:100vh;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center;padding:0}
+.hero-bg-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:0}
+.hero-overlay{position:absolute;inset:0;background:linear-gradient(160deg,rgba(11,45,94,.78) 0%,rgba(11,45,94,.55) 50%,rgba(26,95,168,.45) 100%);z-index:1}
+.hero-center{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;text-align:center;padding:140px 5% 80px;width:100%;max-width:900px;margin:0 auto}
+.hero-rule{width:48px;height:1px;background:rgba(255,255,255,.3);margin:0 auto}
+.hero-label{font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:rgba(255,255,255,.5);font-weight:500;margin:16px 0 20px;display:flex;align-items:center;gap:10px}
+.hero-label::before,.hero-label::after{content:'';display:block;width:20px;height:1px;background:rgba(255,255,255,.25)}
+.hero-tagline{font-family:'Playfair Display',serif;font-size:clamp(2.8rem,6vw,5rem);font-style:italic;font-weight:700;color:#fff;line-height:1.1;margin-bottom:6px}
+.hero-tagline em{color:#a8d4f5}
+.hero-name{font-family:'Playfair Display',serif;font-size:clamp(1.3rem,2.8vw,2rem);font-weight:700;color:#fff;letter-spacing:.02em;margin-bottom:4px}
+.hero-name em{color:#a8d4f5;font-style:italic}
+.hero-spec{font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(255,255,255,.45);font-weight:400;margin-bottom:20px}
+.hero-rule2{width:48px;height:1px;background:rgba(255,255,255,.3);margin:0 auto 36px}
+.hero-btns{display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;margin-bottom:52px}
+.btn-w{background:#fff;color:var(--navy);padding:13px 30px;border-radius:40px;text-decoration:none;font-size:.87rem;font-weight:700;box-shadow:0 6px 24px rgba(0,0,0,.2);transition:transform .2s,box-shadow .2s}
+.btn-w:hover{transform:translateY(-2px);box-shadow:0 10px 32px rgba(0,0,0,.28)}
+.btn-o{background:transparent;border:1.5px solid rgba(255,255,255,.45);color:#fff;padding:12px 28px;border-radius:40px;text-decoration:none;font-size:.87rem;font-weight:600;transition:all .2s}
+.btn-o:hover{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.75)}
+.hero-stats{display:flex;gap:1px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.18);border-radius:var(--r);overflow:hidden;backdrop-filter:blur(12px)}
+.hs-item{flex:1;text-align:center;padding:1rem 1.4rem;border-right:1px solid rgba(255,255,255,.12)}
+.hs-item:last-child{border-right:none}
+.hs-num{font-family:'Playfair Display',serif;font-size:1.6rem;font-weight:700;color:#fff;line-height:1}
+.hs-lbl{font-size:.62rem;color:rgba(255,255,255,.55);text-transform:uppercase;letter-spacing:.1em;margin-top:3px}
 
-  /* buttons */
-  .btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;padding:10px 16px;border-radius:11px;background:linear-gradient(135deg,#3b82f6,#2563eb);color:#fff;font-weight:600;box-shadow:0 3px 8px rgba(37,99,235,.3);white-space:nowrap}
-  .btn:hover{filter:brightness(1.07)}
-  .btn.sm{padding:7px 12px;font-size:13.5px;border-radius:9px;box-shadow:none}
-  .btn.green{background:linear-gradient(135deg,#22c55e,#15803d);box-shadow:0 3px 8px rgba(22,163,74,.3)}
-  .btn.wa{background:linear-gradient(135deg,#25d366,#0f9d77);box-shadow:0 3px 8px rgba(37,211,102,.3)}
-  .btn.ghost{background:transparent;color:var(--brand);border:1.5px solid var(--line);box-shadow:none}
-  .btn.ghost:hover{border-color:var(--brand);filter:none}
-  .btn.red{color:var(--red)}
-  .btn.block{width:100%;padding:13px;font-size:16px;margin-top:14px}
-  .btn:disabled{opacity:.55;cursor:wait}
-  .iconbtn{width:40px;height:40px;border-radius:11px;background:var(--card);border:1px solid var(--line);color:var(--mute);display:grid;place-items:center;position:relative}
-  .iconbtn:hover{color:var(--brand)}
+/* ─── SHARED ─── */
+section{padding:90px 5%}
+.inner{max-width:1200px;margin:0 auto}
+.sec-label{display:inline-flex;align-items:center;gap:8px;color:var(--blue);font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.14em;margin-bottom:.7rem}
+.sec-label::before{content:'';width:22px;height:2px;background:linear-gradient(90deg,var(--blue),var(--azure));border-radius:2px}
+.sec-title{font-family:'Playfair Display',serif;font-size:clamp(1.9rem,3.2vw,2.8rem);font-weight:700;color:var(--navy);line-height:1.2;margin-bottom:.8rem}
+.sec-title em{font-style:italic;color:var(--mid)}
+.sec-sub{font-size:.96rem;color:var(--muted);line-height:1.78;max-width:540px;font-weight:300}
+.sh{margin-bottom:3.5rem}.sh.c{text-align:center}.sh.c .sec-label{justify-content:center}.sh.c .sec-sub{margin:0 auto}
 
-  /* list items */
-  .item{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin-bottom:10px}
-  .page .item{box-shadow:var(--shadow)}
-  .card .item{box-shadow:none}
-  .iconbtn.mob{display:none}
-  .item.over{border-color:rgba(220,38,38,.4);background:linear-gradient(90deg,var(--redbg),var(--card) 55%)}
-  .item.flash{outline:3px solid var(--brand)}
-  .r1{display:flex;gap:12px;align-items:center}
-  .av{width:42px;height:42px;border-radius:50%;color:#fff;display:grid;place-items:center;font-weight:700;flex:none;font-size:15px}
-  .grow{flex:1;min-width:0}
-  .nm{font-weight:700;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
-  .mt{color:var(--mute);font-size:13px}
-  .amt{font-weight:800;font-size:17px;white-space:nowrap;text-align:right}
-  .acts{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
-  .tag{font-size:11px;font-weight:700;padding:2px 9px;border-radius:99px;letter-spacing:.2px;white-space:nowrap}
-  .t-amber{background:var(--amberbg);color:var(--amber)}.t-red{background:var(--red);color:#fff}.t-green{background:var(--greenbg);color:var(--green)}.t-blue{background:var(--bluebg);color:var(--brand)}.t-gray{background:var(--line);color:var(--mute)}
-  .dayh{font-size:12px;font-weight:700;color:var(--mute);text-transform:uppercase;letter-spacing:.6px;margin:16px 2px 8px}
-  .dayh:first-child{margin-top:0}
-  .empty{text-align:center;color:var(--mute);padding:26px 10px}
-  .empty .eic{width:52px;height:52px;border-radius:50%;background:var(--bluebg);color:var(--brand);display:grid;place-items:center;margin:0 auto 10px}
-  .eic svg{width:24px;height:24px}
+/* ─── ABOUT STRIP ─── */
+#about-strip{padding:0;background:var(--white);overflow:hidden}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;min-height:560px}
+.about-img{position:relative;overflow:hidden}
+.about-img img{width:100%;height:100%;object-fit:cover;object-position:center}
+.about-img-overlay{position:absolute;inset:0;background:linear-gradient(90deg,transparent 60%,var(--white))}
+.about-content{padding:70px 60px 70px 50px;display:flex;flex-direction:column;justify-content:center}
+.doc-frame{display:flex;align-items:center;gap:1.4rem;margin-bottom:2rem;padding-bottom:2rem;border-bottom:1px solid var(--light)}
+.doc-av{width:90px;height:90px;border-radius:50%;background:linear-gradient(135deg,var(--mid),var(--navy));display:flex;align-items:center;justify-content:center;font-size:2.8rem;border:4px solid var(--light);box-shadow:var(--sh);flex-shrink:0}
+.doc-av img{width:100%;height:100%;border-radius:50%;object-fit:cover}
+.doc-meta h2{font-family:'Playfair Display',serif;font-size:1.5rem;font-weight:700;color:var(--navy);margin-bottom:.2rem}
+.doc-meta .dtitle{font-size:.78rem;color:var(--muted);margin-bottom:.6rem}
+.badge-row{display:flex;gap:.4rem;flex-wrap:wrap}
+.qb{background:var(--sky);color:var(--blue);padding:3px 12px;border-radius:16px;font-size:.72rem;font-weight:700;border:1px solid var(--light)}
+.about-content p{font-size:.94rem;color:var(--muted);line-height:1.85;margin-bottom:.9rem;font-weight:300}
+.about-content p strong{color:var(--navy);font-weight:600}
+.hl-grid{display:grid;grid-template-columns:1fr 1fr;gap:.8rem;margin-top:1.4rem}
+.hl-item{display:flex;align-items:flex-start;gap:.6rem;background:var(--pale);border:1px solid var(--light);border-radius:var(--r);padding:.8rem}
+.hl-ic{width:32px;height:32px;border-radius:8px;background:var(--sky);display:flex;align-items:center;justify-content:center;font-size:.9rem;flex-shrink:0}
+.hl-item span{font-size:.8rem;color:var(--text);font-weight:500;line-height:1.4}
 
-  /* segmented, forms */
-  .seg{display:inline-flex;background:var(--line);border-radius:12px;padding:4px;gap:2px;margin-bottom:14px;flex-wrap:wrap}
-  .seg button{background:none;color:var(--mute);padding:8px 16px;border-radius:9px;font-weight:600}
-  .seg button.on{background:var(--card);color:var(--brand);box-shadow:var(--shadow)}
-  label{display:block;font-size:12.5px;font-weight:600;color:var(--mute);margin:12px 0 5px}
-  input,select,textarea{width:100%;padding:11px 12px;border:1.5px solid var(--line);border-radius:11px;font:inherit;background:var(--card);color:var(--ink);outline:none}
-  input:focus,select:focus,textarea:focus{border-color:var(--brand);box-shadow:0 0 0 3px rgba(37,99,235,.15)}
-  .row{display:flex;gap:12px}.row>*{flex:1;min-width:0}
-  .search{position:relative;margin-bottom:14px}
-  .search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--mute)}
-  .search input{padding-left:40px}
-  .toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
-  .toolbar .search{flex:1;min-width:180px;margin:0}
-  .toolbar select{width:auto;min-width:150px}
-  .sum{display:flex;gap:18px;flex-wrap:wrap;padding:12px 16px;background:var(--bluebg);border-radius:12px;margin-bottom:14px;font-size:14px;color:var(--ink)}
-  .sum b{font-weight:800}
-  .sug{position:absolute;left:0;right:0;top:100%;margin-top:4px;z-index:20;background:var(--card);border:1px solid var(--line);border-radius:12px;max-height:260px;overflow:auto;box-shadow:0 10px 28px rgba(15,23,42,.22)}
-  .sug>div{padding:10px 12px;cursor:pointer;border-bottom:1px solid var(--line)}
-  .sug>div:last-child{border-bottom:0}.sug>div:hover{background:var(--bluebg)}
-  .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
-  .chip{background:var(--bluebg);color:var(--brand);border:1.5px solid transparent;border-radius:10px;padding:7px 11px;font-size:13px;font-weight:600;text-align:left}
-  .chip.on{border-color:var(--brand);background:var(--card)}
-  .pick{background:var(--greenbg);color:var(--green);font-size:13px;font-weight:600;margin-top:6px}
-  .bar{height:10px;border-radius:99px;background:var(--line);overflow:hidden}
-  .bar>i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,#3b82f6,#8b5cf6)}
-  table.t{width:100%;border-collapse:collapse;font-size:14px}
-  table.t th{text-align:left;color:var(--mute);font-size:12px;text-transform:uppercase;letter-spacing:.5px;padding:8px 6px;border-bottom:1px solid var(--line)}
-  table.t td{padding:10px 6px;border-bottom:1px solid var(--line)}
-  table.t td.n,table.t th.n{text-align:right}
-  .notice{padding:12px 14px;border-radius:12px;background:var(--amberbg);color:var(--amber);font-weight:600;margin-bottom:16px;display:flex;gap:10px;align-items:center}
-  .notice.red{background:var(--redbg);color:var(--red)}
-  .hint{color:var(--mute);font-size:13px;margin:8px 0 0}
+/* ─── HOMEOPATHY WHY ─── */
+#why{background:var(--pale)}
+.why-layout{display:grid;grid-template-columns:1fr 1.4fr;gap:4rem;align-items:center}
+.why-img-stack{position:relative;height:520px}
+.wi-main{position:absolute;top:0;left:0;width:75%;height:80%;border-radius:20px;overflow:hidden;box-shadow:var(--sh2)}
+.wi-main img{width:100%;height:100%;object-fit:cover}
+.wi-sub{position:absolute;bottom:0;right:0;width:55%;height:55%;border-radius:20px;overflow:hidden;box-shadow:var(--sh2);border:4px solid var(--white)}
+.wi-sub img{width:100%;height:100%;object-fit:cover}
+.wi-badge{position:absolute;top:50%;left:60%;transform:translate(-50%,-50%);background:#fff;border-radius:14px;padding:1rem 1.3rem;box-shadow:var(--sh2);text-align:center;z-index:10}
+.wi-badge .wbn{font-family:'Playfair Display',serif;font-size:1.8rem;font-weight:700;color:var(--blue);line-height:1}
+.wi-badge .wbl{font-size:.65rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+.adv-list{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.adv-item{background:var(--white);border:1px solid var(--light);border-radius:var(--r);padding:1.4rem;transition:all .25s;position:relative;overflow:hidden}
+.adv-item::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--blue),var(--azure));transform:scaleX(0);transition:transform .3s;transform-origin:left}
+.adv-item:hover{transform:translateY(-4px);box-shadow:var(--sh2)}
+.adv-item:hover::before{transform:scaleX(1)}
+.adv-ic{width:44px;height:44px;border-radius:12px;background:var(--sky);display:flex;align-items:center;justify-content:center;font-size:1.3rem;margin-bottom:.9rem;border:1px solid var(--light)}
+.adv-item h4{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--navy);margin-bottom:.4rem}
+.adv-item p{font-size:.8rem;color:var(--muted);line-height:1.68;font-weight:300}
 
-  /* modals */
-  .overlay{position:fixed;inset:0;background:rgba(10,16,40,.55);backdrop-filter:blur(2px);display:flex;align-items:center;justify-content:center;padding:16px;z-index:50}
-  .modal{background:var(--card);border-radius:20px;padding:22px;width:100%;max-width:440px;max-height:92vh;overflow:auto;box-shadow:0 20px 60px rgba(0,0,0,.35)}
-  .mh{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
-  .mh h3{font-size:19px;font-weight:800}
-  .x{background:var(--bg);color:var(--mute);width:34px;height:34px;border-radius:50%;font-size:20px;line-height:1}
-  .pay{display:flex;gap:10px;margin:16px 0}
-  .pay button{flex:1;padding:18px 4px;border-radius:14px;font-weight:700;color:#fff;display:flex;flex-direction:column;align-items:center;gap:6px}
-  .pay svg{width:24px;height:24px}
-  .toast{position:fixed;left:50%;bottom:84px;transform:translateX(-50%);background:#0f172a;color:#fff;padding:11px 18px;border-radius:12px;z-index:90;font-weight:600;box-shadow:0 8px 24px rgba(0,0,0,.3)}
-  @media(min-width:821px){.toast{bottom:28px}}
+/* ─── PRACTICE AREAS ─── */
+#practice{background:var(--white);position:relative;overflow:hidden}
+#practice::before{content:'';position:absolute;right:-200px;top:-200px;width:500px;height:500px;border-radius:50%;background:radial-gradient(circle,rgba(26,95,168,.05) 0%,transparent 70%)}
+.practice-layout{display:grid;grid-template-columns:1.3fr 1fr;gap:4rem;align-items:center}
+.practice-img{border-radius:24px;overflow:hidden;box-shadow:var(--sh2);height:480px;position:relative}
+.practice-img img{width:100%;height:100%;object-fit:cover}
+.practice-img-overlay{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(0deg,rgba(11,45,94,.85) 0%,transparent 60%);padding:2rem}
+.practice-img-overlay h3{font-family:'Playfair Display',serif;font-size:1.3rem;color:#fff;font-weight:700;margin-bottom:.3rem}
+.practice-img-overlay p{font-size:.8rem;color:rgba(255,255,255,.7)}
+.prac-cards{display:grid;grid-template-columns:1fr 1fr;gap:.9rem}
+.prac-card{background:var(--pale);border:1px solid var(--light);border-radius:var(--r);padding:1.1rem;display:flex;align-items:flex-start;gap:.7rem;transition:all .22s}
+.prac-card:hover{background:#fff;box-shadow:var(--sh);transform:translateX(4px)}
+.pc-ic{width:38px;height:38px;border-radius:10px;background:var(--sky);display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0;border:1px solid var(--light)}
+.prac-card h4{font-size:.88rem;font-weight:700;color:var(--navy);margin-bottom:.2rem}
+.prac-card p{font-size:.74rem;color:var(--muted);line-height:1.55;font-weight:300}
 
-  /* login */
-  #lock{position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;padding:16px;background:linear-gradient(135deg,#0e1b4d,#2563eb 60%,#38bdf8)}
-  #lock .modal{max-width:380px;padding:30px 28px}
-  #lock .logo{margin:0 auto 14px;width:54px;height:54px;border-radius:16px}
-  #lock h3{text-align:center;font-size:22px}
-  .err{color:var(--red);font-size:14px;min-height:20px;margin-top:8px;text-align:center}
-  .ok2{color:var(--green);font-size:14px;margin-top:8px;text-align:center}
-  #print{display:none}
+/* ─── TESTIMONIALS ─── */
+#testimonials{background:var(--navy);position:relative;overflow:hidden}
+#testimonials::before{content:'';position:absolute;width:600px;height:600px;border-radius:50%;border:1px solid rgba(255,255,255,.04);right:-200px;top:-200px}
+#testimonials::after{content:'';position:absolute;width:400px;height:400px;border-radius:50%;border:1px solid rgba(255,255,255,.04);left:-150px;bottom:-150px}
+#testimonials .sec-label{color:var(--gold)}
+#testimonials .sec-label::before{background:var(--gold)}
+#testimonials .sec-title{color:#fff}
+#testimonials .sec-sub{color:rgba(255,255,255,.55)}
+.testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.4rem}
+.tc{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.11);border-radius:var(--r);padding:1.8rem;backdrop-filter:blur(10px);transition:all .25s;position:relative;overflow:hidden}
+.tc::before{content:'"';position:absolute;top:8px;right:16px;font-family:'Playfair Display',serif;font-size:5rem;color:rgba(255,255,255,.06);line-height:1;font-weight:700}
+.tc:hover{background:rgba(255,255,255,.1);transform:translateY(-4px);box-shadow:0 16px 48px rgba(0,0,0,.25)}
+.tc-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem}
+.tc-stars{color:var(--gold);font-size:.85rem;letter-spacing:2px}
+.gbadge{display:flex;align-items:center;gap:4px;font-size:.67rem;color:rgba(255,255,255,.45)}
+.tc blockquote{font-size:.9rem;color:rgba(255,255,255,.8);line-height:1.8;font-style:italic;font-weight:300;margin-bottom:1.4rem}
+.tc-author{display:flex;align-items:center;gap:.8rem}
+.tc-av{width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,var(--mid),var(--azure));display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:.95rem;flex-shrink:0}
+.tc-name{font-size:.85rem;font-weight:700;color:#fff}
+.tc-loc{font-size:.7rem;color:rgba(255,255,255,.45);margin-top:1px}
+.testi-cta{text-align:center;margin-top:2.5rem}
+.btn-gold{background:var(--gold);color:var(--navy);padding:13px 30px;border-radius:40px;text-decoration:none;font-size:.87rem;font-weight:700;display:inline-flex;align-items:center;gap:.5rem;transition:all .2s;box-shadow:0 6px 24px rgba(201,168,76,.3)}
+.btn-gold:hover{transform:translateY(-2px);box-shadow:0 10px 32px rgba(201,168,76,.45)}
 
-  @media(max-width:820px){
-    .side{display:none}
-    .iconbtn.mob{display:grid}
-    .tabbar{display:flex;position:fixed;bottom:0;left:0;right:0;background:var(--card);border-top:1px solid var(--line);z-index:30;padding:6px 4px calc(6px + env(safe-area-inset-bottom));box-shadow:0 -4px 18px rgba(15,23,42,.08)}
-    .tabbar button{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;background:none;color:var(--mute);font-size:11px;font-weight:600;padding:6px 0;position:relative}
-    .tabbar button.on{color:var(--brand)}
-    .tabbar .badge{position:absolute;top:0;left:55%;margin:0}
-    .main{padding:18px 14px 96px}
-    .top h1{font-size:22px}
-    .stats{grid-template-columns:1fr 1fr;gap:10px}
-    .stat .v{font-size:22px}
-    .grid2{grid-template-columns:1fr}
-    .overlay{align-items:flex-end;padding:0}
-    .modal{border-bottom-left-radius:0;border-bottom-right-radius:0;max-width:none}
-    #lock{align-items:center;padding:16px}#lock .modal{border-radius:20px}
-  }
-  @media print{.shell,#lock,.overlay,.toast,.tabbar{display:none!important}#print{display:block;padding:30px;color:#000;background:#fff;font-family:Georgia,serif}
-    #print table{width:100%;border-collapse:collapse;margin:20px 0}#print td,#print th{border-bottom:1px solid #999;padding:8px;text-align:left}}
+/* ─── CONTACT ─── */
+#contact{background:var(--pale)}
+.contact-layout{display:grid;grid-template-columns:1fr 1fr;gap:2.5rem;align-items:start}
+.contact-card{background:var(--white);border-radius:20px;box-shadow:var(--sh);overflow:hidden}
+.contact-card-header{background:linear-gradient(135deg,var(--blue),var(--navy));padding:2rem 2.2rem}
+.contact-card-header h3{font-family:'Playfair Display',serif;font-size:1.3rem;color:#fff;font-weight:700;margin-bottom:.2rem}
+.contact-card-header p{font-size:.78rem;color:rgba(255,255,255,.65)}
+.contact-card-body{padding:2rem 2.2rem}
+.c-row{display:flex;gap:.9rem;margin-bottom:1.3rem;align-items:flex-start}
+.c-ic{width:40px;height:40px;flex-shrink:0;border-radius:10px;background:var(--sky);border:1px solid var(--light);display:flex;align-items:center;justify-content:center;font-size:1rem}
+.c-lbl{font-size:.66rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:2px}
+.c-val{font-size:.92rem;color:var(--text);line-height:1.6;font-weight:400}
+.hours-grid{display:grid;grid-template-columns:1fr 1fr;gap:.7rem;margin-top:1.2rem}
+.hi{background:var(--pale);border:1px solid var(--light);border-radius:10px;padding:.8rem}
+.hday{font-size:.67rem;color:var(--muted);text-transform:uppercase;letter-spacing:.07em}
+.htime{font-size:.84rem;color:var(--text);font-weight:600;margin-top:2px}
+.map-card{background:var(--white);border-radius:20px;box-shadow:var(--sh);overflow:hidden}
+.map-icon-panel{background:linear-gradient(145deg,var(--sky) 0%,var(--pale) 60%,var(--light) 100%);padding:2.8rem 2rem 1.6rem;display:flex;flex-direction:column;align-items:center;text-align:center;border-bottom:1px solid var(--light);position:relative;overflow:hidden}
+.map-icon-panel::before{content:'';position:absolute;width:200px;height:200px;border-radius:50%;border:1px solid rgba(26,95,168,.08);top:-60px;right:-60px}
+.map-icon-panel::after{content:'';position:absolute;width:140px;height:140px;border-radius:50%;border:1px solid rgba(26,95,168,.07);bottom:-40px;left:-40px}
+.map-pin-wrap{position:relative;display:flex;align-items:center;justify-content:center;margin-bottom:1.2rem}
+.map-pin-svg{width:72px;height:90px;filter:drop-shadow(0 8px 20px rgba(26,95,168,.35));animation:pinBounce 2.4s ease-in-out infinite}
+@keyframes pinBounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.map-pulse{position:absolute;bottom:-4px;left:50%;transform:translateX(-50%);width:32px;height:10px;background:rgba(26,95,168,.18);border-radius:50%;animation:pulseShadow 2.4s ease-in-out infinite}
+@keyframes pulseShadow{0%,100%{transform:translateX(-50%) scaleX(1);opacity:.4}50%{transform:translateX(-50%) scaleX(.6);opacity:.15}}
+.map-icon-label{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:700;color:var(--navy);margin-bottom:.3rem;position:relative;z-index:1}
+.map-icon-addr{font-size:.8rem;color:var(--muted);position:relative;z-index:1}
+.map-info{padding:1.8rem 2rem}
+.map-info h4{font-family:'Playfair Display',serif;font-size:1.1rem;color:var(--navy);font-weight:700;margin-bottom:.5rem}
+.map-info p{font-size:.85rem;color:var(--muted);line-height:1.65;margin-bottom:1.2rem}
+.map-btn{display:inline-flex;align-items:center;gap:.5rem;background:linear-gradient(135deg,var(--mid),var(--navy));color:#fff;padding:11px 24px;border-radius:30px;text-decoration:none;font-size:.83rem;font-weight:700;transition:all .2s;box-shadow:0 4px 16px rgba(26,95,168,.3)}
+.map-btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(26,95,168,.45)}
+
+/* ─── FOOTER ─── */
+footer{background:var(--navy);padding:1.8rem 5%;display:flex;align-items:center;justify-content:space-between;border-top:1px solid rgba(255,255,255,.07)}
+.foot-brand{font-family:'Playfair Display',serif;font-size:.95rem;color:rgba(255,255,255,.5)}
+.foot-brand strong{color:rgba(255,255,255,.8)}
+footer p{font-size:.77rem;color:rgba(255,255,255,.35)}
+
+/* ─── PHONE HIGHLIGHT ─── */
+.phone-highlight{display:block;font-family:'Playfair Display',serif;font-size:1.45rem;font-weight:700;color:var(--blue);letter-spacing:.02em;text-decoration:none;margin:.3rem 0 .7rem;transition:color .2s}
+.phone-highlight:hover{color:var(--navy)}
+.phone-actions{display:flex;gap:.6rem;flex-wrap:wrap}
+.phone-btn{display:inline-flex;align-items:center;gap:.35rem;padding:8px 18px;border-radius:30px;font-size:.8rem;font-weight:700;text-decoration:none;transition:all .2s}
+.call-btn{background:linear-gradient(135deg,var(--mid),var(--navy));color:#fff;box-shadow:0 4px 14px rgba(26,95,168,.28)}
+.call-btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(26,95,168,.4)}
+.wa-btn{background:#25d366;color:#fff;box-shadow:0 4px 14px rgba(37,211,102,.28)}
+.wa-btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(37,211,102,.4)}
+
+@media(max-width:980px){
+  nav ul{display:none}
+  .hero-center{padding:120px 5% 60px}
+  .hero-tagline{font-size:clamp(2.2rem,8vw,3.2rem)}
+  .hero-stats{flex-wrap:wrap}
+  .hs-item{min-width:80px}
+  .about-grid{grid-template-columns:1fr}
+  .about-img{height:300px}
+  .about-img-overlay{display:none}
+  .why-layout,.practice-layout,.contact-layout{grid-template-columns:1fr}
+  .why-img-stack{height:340px}
+  .practice-img{height:300px}
+  .testi-grid{grid-template-columns:1fr 1fr}
+  footer{flex-direction:column;gap:.5rem;text-align:center}
+}
+@media(max-width:600px){
+  .testi-grid,.adv-list,.prac-cards,.hl-grid,.hours-grid{grid-template-columns:1fr}
+}
 </style>
 </head>
 <body>
 
-<!-- LOGIN -->
-<div id="lock">
-  <div class="modal">
-    <div class="logo"><i data-i="plus"></i></div>
-    <h3>Clinic Invoices</h3>
-    <div id="demoNote" class="ok2" style="display:none"><b>Demo mode</b>: data stays only in this browser.<br>Sign in with <b>demo@clinic.test</b> / <b>demo1234</b></div>
-    <div id="fLogin">
-      <label>Email</label>
-      <input id="lEmail" type="email" autocomplete="username" onkeydown="if(event.key==='Enter')$('lPw').focus()">
-      <label>Password</label>
-      <input id="lPw" type="password" autocomplete="current-password" onkeydown="if(event.key==='Enter')doLogin()">
-      <button class="btn block" id="lBtn" onclick="doLogin()">Sign in</button>
-      <p class="hint" style="text-align:center;margin-top:14px"><a href="#" onclick="doForgot();return false" style="text-decoration:underline">Forgot password?</a></p>
+<!-- ─── NAV ─── -->
+<nav>
+  <a class="nav-logo" href="#home">
+    <div class="lm">⚕</div>
+    <div class="lt">
+      <span class="ln">Advaita Homoeo Clinic</span>
+      <span class="ls">Dr. Annapoorna · BHMS · MD · SCPH</span>
     </div>
-    <div id="fRecover" style="display:none">
-      <p class="hint" style="text-align:center">Choose a new password.</p>
-      <label>New password</label><input id="rPw1" type="password" autocomplete="new-password">
-      <label>Repeat password</label><input id="rPw2" type="password" autocomplete="new-password" onkeydown="if(event.key==='Enter')doRecover()">
-      <button class="btn block" onclick="doRecover()">Save password</button>
+  </a>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about-strip">About</a></li>
+    <li><a href="#why">Homeopathy</a></li>
+    <li><a href="#practice">Practice</a></li>
+    <li><a href="#testimonials">Reviews</a></li>
+    <li><a href="tel:+916361129208" style="display:inline-flex;align-items:center;gap:.4rem;background:rgba(37,211,102,.1);border:1.5px solid rgba(37,211,102,.35);color:#1a7a40;border-radius:30px;padding:7px 15px;font-weight:700;font-size:.78rem">📞 63611 29208</a></li>
+    <li><a href="#contact" class="ncta">Visit Us</a></li>
+  </ul>
+</nav>
+
+<!-- ─── HERO – Layout 2: Full Bleed Centred ─── -->
+<section id="home">
+  <img class="hero-bg-img" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1600&auto=format&fit=crop&q=85" alt="Vibrant blooming wildflowers — natural healing at Advaita Homoeo Clinic Bengaluru" loading="eager" fetchpriority="high"/>
+  <div class="hero-overlay"></div>
+  <div class="hero-center">
+    <div class="hero-rule"></div>
+    <div class="hero-label">Advaita Homoeo Clinic · Kodigehalli, Bengaluru</div>
+    <div class="hero-tagline">Healing from <em>Within.</em></div>
+    <div class="hero-name">Dr. <em>Annapoorna</em></div>
+    <div class="hero-spec">Homoeopathic Physician &nbsp;·&nbsp; BHMS &nbsp;·&nbsp; MD &nbsp;·&nbsp; SCPH</div>
+    <div class="hero-rule2"></div>
+    <div class="hero-btns">
+      <a href="#contact" class="btn-w">📍 Visit the Clinic</a>
+      <a href="#about-strip" class="btn-o">Meet the Doctor</a>
     </div>
-    <div class="err" id="lErr"></div>
+    <div class="hero-stats">
+      <div class="hs-item"><div class="hs-num">6+</div><div class="hs-lbl">Years Exp.</div></div>
+      <div class="hs-item"><div class="hs-num">300+</div><div class="hs-lbl">Patients</div></div>
+      <div class="hs-item"><div class="hs-num">20+</div><div class="hs-lbl">Conditions</div></div>
+      <div class="hs-item"><div class="hs-num">5.0 ★</div><div class="hs-lbl">Google</div></div>
+    </div>
   </div>
-</div>
+</section>
 
-<!-- APP -->
-<div class="shell" id="app" style="display:none">
-  <aside class="side">
-    <div class="brand"><div class="logo"><i data-i="plus"></i></div><div><span id="brandName">Clinic</span><small id="brandDoc"></small></div></div>
-    <nav>
-      <button class="nb" data-page="home" onclick="go('home')"><i data-i="home"></i>Dashboard</button>
-      <button class="nb" data-page="appts" onclick="go('appts')"><i data-i="calendar"></i>Appointments<span class="badge" id="bgA" style="display:none"></span></button>
-      <button class="nb" data-page="invoices" onclick="go('invoices')"><i data-i="receipt"></i>Invoices<span class="badge" id="bgI" style="display:none"></span></button>
-      <button class="nb" data-page="patients" onclick="go('patients')"><i data-i="users"></i>Patients</button>
-      <button class="nb" data-page="reports" onclick="go('reports')"><i data-i="chart"></i>Reports</button>
-    </nav>
-    <div class="sp"></div>
-    <button class="nb" data-page="settings" onclick="go('settings')"><i data-i="gear"></i>Settings</button>
-    <button class="nb" onclick="signOut()"><i data-i="logout"></i>Sign out</button>
-  </aside>
-
-  <main class="main">
-    <div class="top">
-      <div><h1 id="pageTitle">Dashboard</h1><div class="sub" id="pageSub"></div></div>
-      <div style="display:flex;gap:8px">
-        <button class="iconbtn" title="Turn on desktop alerts" onclick="askNotify()"><i data-i="bell"></i></button>
-        <button class="iconbtn mob" title="Settings" onclick="go('settings')" id="gearBtn"><i data-i="gear"></i></button>
+<!-- ─── ABOUT ─── -->
+<section id="about-strip" style="padding:0">
+  <div class="about-grid">
+    <div class="about-img">
+      <!-- TO ADD DR. ANNAPOORNA'S REAL PHOTO: replace the src URL below with her image path e.g. src="annapoorna.jpg" -->
+      <img id="doctor-photo"
+           src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&auto=format&fit=crop&q=80"
+           alt="Dr. Annapoorna – Advaita Homoeo Clinic"
+           style="width:100%;height:100%;object-fit:cover;object-position:center top"/>
+      <div class="about-img-overlay"></div>
+    </div>
+    <div class="about-content">
+      <div class="sec-label">About the doctor</div>
+      <div class="doc-frame">
+        <div class="doc-av">👩‍⚕️</div>
+        <div class="doc-meta">
+          <h2>Dr. Annapoorna</h2>
+          <p class="dtitle">Homoeopathic Physician, Bengaluru</p>
+          <div class="badge-row">
+            <span class="qb">BHMS</span>
+            <span class="qb">MD</span>
+            <span class="qb">SCPH</span>
+          </div>
+        </div>
+      </div>
+      <p>Dr. Annapoorna is a highly qualified homoeopathic physician practising at <strong>Advaita Homoeo Clinic</strong>, Kodigehalli, Bengaluru. She holds a <strong>BHMS</strong>, a <strong>Doctor of Medicine in Homoeopathy (MD)</strong>, and a <strong>Specialised Course in Predictive Homoeopathy (SCPH)</strong>.</p>
+      <p>With over a decade of dedicated practice, she is known for her thorough, empathetic consultations and her ability to resolve complex chronic ailments through individualised homoeopathic care. She treats every patient as a unique human being — not just a diagnosis.</p>
+      <div class="hl-grid">
+        <div class="hl-item"><div class="hl-ic">🎓</div><span>Advanced PG Qualifications — BHMS, MD, SCPH</span></div>
+        <div class="hl-item"><div class="hl-ic">🏥</div><span>6+ Years Clinical Practice in Bengaluru</span></div>
+        <div class="hl-item"><div class="hl-ic">❤️</div><span>Patient-Centred, Empathetic Consultations</span></div>
+        <div class="hl-item"><div class="hl-ic">👨‍👩‍👧</div><span>Care for All Ages — Infants to Elderly</span></div>
       </div>
     </div>
+  </div>
+</section>
 
-    <!-- HOME -->
-    <section class="page" id="pg-home">
-      <div class="stats">
-        <button class="stat s-orange" onclick="go('invoices')"><div class="ic"><i data-i="rupee"></i></div><div class="v" id="stDue">₹0</div><div class="l" id="stDueL">To collect</div></button>
-        <button class="stat s-blue" onclick="go('appts')"><div class="ic"><i data-i="calendar"></i></div><div class="v" id="stAp">0</div><div class="l" id="stApL">Appointments today</div></button>
-        <button class="stat s-green" onclick="go('reports')"><div class="ic"><i data-i="check"></i></div><div class="v" id="stCol">₹0</div><div class="l">Collected this month</div></button>
-        <button class="stat s-violet" onclick="go('patients')"><div class="ic"><i data-i="users"></i></div><div class="v" id="stPat">0</div><div class="l">Patients</div></button>
-      </div>
-      <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px">
-        <button class="btn" onclick="openInvoice()"><i data-i="plus"></i>New invoice</button>
-        <button class="btn ghost" onclick="openAppt(null,null)"><i data-i="calendar"></i>Book appointment</button>
-        <button class="btn ghost" onclick="openPatient(null,null)"><i data-i="users"></i>Add patient</button>
-      </div>
-      <div id="homeRem"></div>
-      <div class="grid2">
-        <div class="card"><div class="sec-h"><h2>Today's appointments</h2><button class="btn ghost sm" onclick="go('appts')">All</button></div><div id="homeToday"></div></div>
-        <div class="card"><div class="sec-h"><h2>Payments to collect</h2><button class="btn ghost sm" onclick="go('invoices')">All</button></div><div id="homeDue"></div></div>
-      </div>
-    </section>
-
-    <!-- APPOINTMENTS -->
-    <section class="page" id="pg-appts">
-      <div class="toolbar" style="justify-content:space-between">
-        <div class="seg" style="margin:0"><button id="aTabUp" onclick="setApptTab('up')">Upcoming</button><button id="aTabPast" onclick="setApptTab('past')">Past &amp; cancelled</button></div>
-        <button class="btn" onclick="openAppt(null,null)"><i data-i="plus"></i>Book appointment</button>
-      </div>
-      <div id="apptBanner"></div>
-      <div id="apptList"></div>
-    </section>
-
-    <!-- INVOICES -->
-    <section class="page" id="pg-invoices">
-      <div class="toolbar" style="justify-content:space-between">
-        <div class="seg" style="margin:0"><button id="iTabDue" onclick="setInvTab('due')">To collect</button><button id="iTabPaid" onclick="setInvTab('paid')">Paid history</button></div>
-        <button class="btn" onclick="openInvoice()"><i data-i="plus"></i>New invoice</button>
-      </div>
-      <div id="invDue">
-        <div id="dueBanner"></div>
-        <div id="dueList"></div>
-      </div>
-      <div id="invPaid" style="display:none">
-        <div class="toolbar">
-          <div class="search"><i data-i="search"></i><input id="hQ" placeholder="Search patient name…" oninput="hist.q=this.value;hist.n=25;renderHistory()"></div>
-          <select id="hM" onchange="hist.m=this.value;hist.n=25;renderHistory()"></select>
+<!-- ─── WHY HOMOEOPATHY ─── -->
+<section id="why">
+  <div class="inner">
+    <div class="why-layout">
+      <div class="why-img-stack">
+        <div class="wi-main">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1490818387583-1baba5e638af?w=700&auto=format&fit=crop&q=80" alt="Natural medicinal herbs and botanical plants used in homoeopathic treatment Bengaluru"/>
         </div>
-        <div class="sum" id="hSum"></div>
-        <div id="histList"></div>
-        <div style="text-align:center"><button class="btn ghost" id="hMore" onclick="hist.n+=25;renderHistory()" style="display:none">Show more</button></div>
-      </div>
-    </section>
-
-    <!-- PATIENTS -->
-    <section class="page" id="pg-patients">
-      <div class="toolbar">
-        <div class="search"><i data-i="search"></i><input id="patQ" placeholder="Search by name or phone…" oninput="renderPatients()"></div>
-        <button class="btn" onclick="openPatient(null,null)"><i data-i="plus"></i>Add patient</button>
-      </div>
-      <div id="patList2"></div>
-    </section>
-
-    <!-- REPORTS -->
-    <section class="page" id="pg-reports">
-      <div class="card">
-        <div class="row">
-          <div><label style="margin-top:0">Month</label><select id="rMonth" onchange="repSummary()"></select></div>
-          <div><label style="margin-top:0">Patient</label><select id="rPat" onchange="repSummary()"></select></div>
+        <div class="wi-sub">
+          <img loading="lazy" src="https://images.unsplash.com/photo-1617897903246-719242758050?w=500&auto=format&fit=crop&q=80" alt="Homoeopathic globules and plant-based natural remedies — safe effective healing"/>
         </div>
-        <button class="btn green block" onclick="exportXlsx()"><i data-i="download"></i>Download Excel report</button>
-        <p class="hint">Two sheets: <b>Invoices</b> (grouped patient-wise) and <b>By Patient</b> (totals).</p>
+        <div class="wi-badge">
+          <div class="wbn">200+</div>
+          <div class="wbl">Years of Science</div>
+        </div>
       </div>
-      <div class="stats" style="margin-bottom:16px" id="rTiles"></div>
-      <div class="grid2">
-        <div class="card"><div class="sec-h"><h2>Collected by payment method</h2></div><div id="rMethods"></div></div>
-        <div class="card"><div class="sec-h"><h2>By patient</h2></div><div id="rTable" style="overflow-x:auto"></div></div>
+      <div>
+        <div class="sh">
+          <div class="sec-label">Why Homoeopathy?</div>
+          <h2 class="sec-title">The Science of <em>Natural Healing</em></h2>
+          <p class="sec-sub">A WHO-recognised system that stimulates your body's own healing intelligence — safely, gently, and permanently.</p>
+        </div>
+        <div class="adv-list">
+          <div class="adv-item"><div class="adv-ic">🌱</div><h4>100% Natural & Safe</h4><p>Plant, mineral, and animal-source remedies — free from toxins, safe for all ages.</p></div>
+          <div class="adv-item"><div class="adv-ic">🎯</div><h4>Treats Root Cause</h4><p>Addresses the underlying cause of disease, not just masking symptoms.</p></div>
+          <div class="adv-item"><div class="adv-ic">🚫</div><h4>Zero Side Effects</h4><p>Highly diluted preparations with no toxic effects or organ damage risk.</p></div>
+          <div class="adv-item"><div class="adv-ic">💊</div><h4>No Dependency</h4><p>Strengthens immunity naturally — no addiction, no withdrawal effects.</p></div>
+          <div class="adv-item"><div class="adv-ic">🌍</div><h4>Chronic Illness</h4><p>Remarkable results for asthma, arthritis, PCOD, thyroid, and skin conditions.</p></div>
+          <div class="adv-item"><div class="adv-ic">👶</div><h4>Safe for Children</h4><p>Sweet pills with no harsh chemicals — ideal for all stages of childhood.</p></div>
+        </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
-    <!-- SETTINGS -->
-    <section class="page" id="pg-settings">
-      <div class="grid2">
-        <div class="card">
-          <div class="sec-h"><h2>Clinic details</h2></div>
-          <label style="margin-top:0">Clinic name</label><input id="sClinic">
-          <label>Doctor name</label><input id="sDoc">
-          <label>Address / phone (shown on invoice)</label><textarea id="sAddr" rows="2"></textarea>
-          <div class="row">
-            <div><label>New Consultation fee (₹)</label><input id="sFeeN" type="number"></div>
-            <div><label>Follow-up fee (₹)</label><input id="sFeeF" type="number"></div>
+<!-- ─── PRACTICE AREAS ─── -->
+<section id="practice">
+  <div class="inner">
+    <div class="practice-layout">
+      <div>
+        <div class="sh">
+          <div class="sec-label">Areas of Practice</div>
+          <h2 class="sec-title">Conditions <em>We Treat</em></h2>
+          <p class="sec-sub">Expert homoeopathic care across a wide spectrum of acute and chronic health conditions for the entire family.</p>
+        </div>
+        <div class="prac-cards">
+          <div class="prac-card"><div class="pc-ic">🫁</div><div><h4>Respiratory</h4><p>Asthma, sinusitis, bronchitis, allergic rhinitis</p></div></div>
+          <div class="prac-card"><div class="pc-ic">🦴</div><div><h4>Joints & Bones</h4><p>Arthritis, back pain, cervical spondylosis, gout</p></div></div>
+          <div class="prac-card"><div class="pc-ic">🌿</div><div><h4>Skin Conditions</h4><p>Eczema, psoriasis, acne, vitiligo, hair loss</p></div></div>
+          <div class="prac-card"><div class="pc-ic">🧠</div><div><h4>Mental Wellness</h4><p>Anxiety, depression, insomnia, stress</p></div></div>
+          <div class="prac-card"><div class="pc-ic">🌸</div><div><h4>Women's Health</h4><p>PCOD, menstrual issues, fibroids, menopause</p></div></div>
+          <div class="prac-card"><div class="pc-ic">👶</div><div><h4>Paediatrics</h4><p>Teething, colic, infections, tonsillitis, ADHD</p></div></div>
+          <div class="prac-card"><div class="pc-ic">🩺</div><div><h4>Thyroid & Metabolic</h4><p>Hypo/Hyperthyroidism, diabetes support</p></div></div>
+          <div class="prac-card"><div class="pc-ic">🍽️</div><div><h4>Digestive</h4><p>IBS, acidity, constipation, gastritis</p></div></div>
+          <div class="prac-card"><div class="pc-ic">❤️</div><div><h4>Cardiac & BP</h4><p>Hypertension, palpitations, cardiac support</p></div></div>
+          <div class="prac-card"><div class="pc-ic">🧬</div><div><h4>Neurological</h4><p>Migraines, vertigo, trigeminal neuralgia</p></div></div>
+        </div>
+      </div>
+      <div class="practice-img">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1540420773420-3366772f4999?w=700&auto=format&fit=crop&q=80" alt="Colourful medicinal herbs and natural plant remedies used in classical homoeopathy treatment at Advaita Homoeo Clinic Kodigehalli Bengaluru"/>
+        <div class="practice-img-overlay">
+          <h3>Personalised Care for Every Patient</h3>
+          <p>Classical homoeopathy tailored to you</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── TESTIMONIALS ─── -->
+<section id="testimonials">
+  <div class="inner">
+    <div class="sh c">
+      <div class="sec-label">Patient Reviews</div>
+      <h2 class="sec-title" style="color:#fff">What Our <em style="color:#a8d4f5">Patients Say</em></h2>
+      <p class="sec-sub">Experiences from patients of Advaita Homoeo Clinic, Kodigehalli, Bengaluru.</p>
+    </div>
+    <div style="display:flex;justify-content:center;margin-bottom:2rem">
+      <div style="background:rgba(201,168,76,.1);border:1px solid rgba(201,168,76,.2);color:rgba(255,255,255,.6);padding:10px 18px;border-radius:10px;font-size:.77rem;line-height:1.55;text-align:center;max-width:600px">
+        
+      </div>
+    </div>
+    <div class="testi-grid">
+      <div class="tc">
+        <div class="tc-top"><span class="tc-stars">★★★★★</span><span class="gbadge"><svg width="11" height="11" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg> Google</span></div>
+        <blockquote>Visited Dr.Annapoorna for my son's issue... very happy with doctor's approach towards both physical health and mental health of the patient....she gives enough time to listen to the patients and thoroughly understands the physical and mental well-being of the person, which helps for diagnosis.
+Totally happy with the doctor...</blockquote>
+        <div class="tc-author"><div class="tc-av">R</div><div><div class="tc-name">Sushma M N</div><div class="tc-loc">Kodigehalli, Bengaluru</div></div></div>
+      </div>
+      <div class="tc">
+        <div class="tc-top"><span class="tc-stars">★★★★★</span><span class="gbadge"><svg width="11" height="11" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg> Google</span></div>
+        <blockquote>Dr. Annapoorna takes complete health history before giving any medication and also makes you feel extremely comfortable. I was even constantly followed up through messages and taken updates from regarding my health. I started feeling better from the very day I consulted her because of the way she carefully listened and suggested solutions to all my health related queries. I'd like to thank her for her great service.</blockquote>
+        <div class="tc-author"><div class="tc-av">S</div><div><div class="tc-name">Shilpa Vijay</div><div class="tc-loc">Rajiv Gandhi Nagar, Bengaluru</div></div></div>
+      </div>
+      <div class="tc">
+        <div class="tc-top"><span class="tc-stars">★★★★★</span><span class="gbadge"><svg width="11" height="11" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg> Google</span></div>
+        <blockquote>Dr. Annapoorna's analysis and treatment towards chronic problems and other viral infections are perfect. She not only understands your body, but also understands the status of your mind. She takes time to listen to your problems, understand the problem in depth and speaks convincingly and positively in every consultation. Trusting a doctor is very important for the recovery of a patient and ofcourse Dr. Annapoorna can be trusted for any health issues to be solved </blockquote>
+        <div class="tc-author"><div class="tc-av">P</div><div><div class="tc-name">Rachana Ramakrishna</div><div class="tc-loc">Hebbal, Bengaluru</div></div></div>
+      </div>
+      <div class="tc">
+        <div class="tc-top"><span class="tc-stars">★★★★★</span><span class="gbadge"><svg width="11" height="11" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg> Google</span></div>
+        <blockquote>My heartfelt thank you to Dr.Annapoorna for getting me back on my toes again within short span of time. A Doctor who manages chronic cases with ease. I strongly recommend her for one stop solution for all health problems. A Doctor with Human Touch! Humble! and Caring!!👍 … </blockquote>
+        <div class="tc-author"><div class="tc-av">M</div><div><div class="tc-name">Suma A N</div><div class="tc-loc">Yelahanka, Bengaluru</div></div></div>
+      </div>
+      <div class="tc">
+        <div class="tc-top"><span class="tc-stars">★★★★★</span><span class="gbadge"><svg width="11" height="11" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg> Google</span></div>
+        <blockquote>Dr. Annapurna, Is our family doctor, she has solution for all health issues. and it got cured with the given medicine. She will make sure we become fine and healthy, by regular follow-ups. I have recommended many of my friends and they have been benefitted with the provided medication.</blockquote>
+        <div class="tc-author"><div class="tc-av">A</div><div><div class="tc-name">Girish L</div><div class="tc-loc">Sadashivanagar, Bengaluru</div></div></div>
+      </div>
+      <div class="tc">
+        <div class="tc-top"><span class="tc-stars">★★★★★</span><span class="gbadge"><svg width="11" height="11" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg> Google</span></div>
+        <blockquote>Dr Annapoorna has helped immensely in getting relief from allergic cough and other symptoms. Taken complete medication history and provided suitable medicines.</blockquote>
+        <div class="tc-author"><div class="tc-av">V</div><div><div class="tc-name">Varsha Katti</div><div class="tc-loc">Mathikere, Bengaluru</div></div></div>
+      </div>
+    </div>
+    <div class="testi-cta">
+      <a href="https://maps.app.goo.gl/aeyiVC6dor48yZGx5" target="_blank" class="btn-gold">
+        <svg width="14" height="14" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#0b2d5e"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#0b2d5e"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#0b2d5e"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#0b2d5e"/></svg>
+        Read All Reviews on Google Maps
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── CONTACT ─── -->
+<section id="contact">
+  <div class="inner">
+    <div class="sh">
+      <div class="sec-label">Visit Us</div>
+      <h2 class="sec-title">Clinic <em>Location &amp; Hours</em></h2>
+      <p class="sec-sub">Walk-ins and appointments welcome at Advaita Homoeo Clinic, Kodigehalli, Bengaluru.</p>
+    </div>
+    <div class="contact-layout">
+      <div class="contact-card">
+        <div class="contact-card-header">
+          <h3>🏥 Advaita Homoeo Clinic</h3>
+          <p>Dr. Annapoorna (BHMS, MD, SCPH) · Homoeopathic Physician</p>
+          <a href="tel:+916361129208" style="display:inline-flex;align-items:center;gap:.5rem;margin-top:.9rem;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);color:#fff;padding:8px 18px;border-radius:30px;font-size:.88rem;font-weight:700;text-decoration:none;letter-spacing:.02em;transition:background .2s">
+            📞 +91 63611 29208
+          </a>
+        </div>
+        <div class="contact-card-body">
+          <div class="c-row">
+            <div class="c-ic">📍</div>
+            <div><div class="c-lbl">Address</div><div class="c-val">Canara Bank Layout, Rajiv Gandhi Nagar,<br/>Kodigehalli, Bengaluru, Karnataka – 560097</div></div>
           </div>
-          <label>Mark invoice "overdue" after (days)</label><input id="sDays" type="number">
-          <button class="btn block" onclick="saveSettings()">Save settings</button>
-        </div>
-        <div>
-          <div class="card">
-            <div class="sec-h"><h2>Change password</h2></div>
-            <input id="npw1" type="password" placeholder="New password (8+ characters)" autocomplete="new-password">
-            <input id="npw2" type="password" placeholder="Repeat password" autocomplete="new-password" style="margin-top:10px">
-            <button class="btn block" onclick="changePw()">Change password</button>
+          <div class="c-row">
+            <div class="c-ic">🌿</div>
+            <div><div class="c-lbl">Speciality</div><div class="c-val">Classical &amp; Clinical Homoeopathy<br/>Chronic Disease · Paediatrics · Women's Health</div></div>
           </div>
-          <div class="card">
-            <div class="sec-h"><h2>Backup</h2></div>
-            <div class="acts" style="margin-top:0">
-              <button class="btn ghost sm" onclick="backup()"><i data-i="download"></i>Download backup</button>
-              <button class="btn ghost sm" onclick="$('restoreFile').click()">Restore / import</button>
-              <button class="btn ghost sm" onclick="buildPatients(true)">Create patients from old invoices</button>
-              <input type="file" id="restoreFile" accept=".json" style="display:none" onchange="restore(this)">
+          <div class="c-row">
+            <div class="c-ic">📞</div>
+            <div>
+              <div class="c-lbl">Book an Appointment</div>
+              <a href="tel:+916361129208" class="phone-highlight">+91 63611 29208</a>
+              <div class="phone-actions">
+                <a href="tel:+916361129208" class="phone-btn call-btn">📞 Call Now</a>
+                <a href="https://wa.me/916361129208" target="_blank" class="phone-btn wa-btn">💬 WhatsApp</a>
+                <button type="button" class="phone-btn book-btn" onclick="openBook()" hidden>📅 Book Online</button>
+              </div>
             </div>
-            <p class="hint">Your data is stored online and shared between all your devices. Download a backup now and then.</p>
+          </div>
+          <div class="c-row">
+            <div class="c-ic">⭐</div>
+            <div><div class="c-lbl">Google Rating</div><div class="c-val" style="color:var(--gold);font-weight:700">5.0 ★★★★★ &nbsp;<span style="color:var(--muted);font-weight:400;font-size:.82rem">on Google Maps</span></div></div>
+          </div>
+          <div class="hours-grid">
+            <div class="hi"><div class="hday">Mon – Sat Morning</div><div class="htime">11:00 AM – 1:00 PM</div></div>
+            <div class="hi"><div class="hday">Mon – Sat Evening</div><div class="htime">5:30 PM – 8:30 PM</div></div>
+            <div class="hi"><div class="hday">Sunday</div><div class="htime">By Appointment</div></div>
+            <div class="hi"><div class="hday">Emergency</div><div class="htime">Contact Clinic</div></div>
           </div>
         </div>
       </div>
-    </section>
-  </main>
-
-  <nav class="tabbar">
-    <button data-page="home" onclick="go('home')"><i data-i="home"></i>Home</button>
-    <button data-page="appts" onclick="go('appts')"><i data-i="calendar"></i>Appointments<span class="badge" id="bgA2" style="display:none"></span></button>
-    <button data-page="invoices" onclick="go('invoices')"><i data-i="receipt"></i>Invoices<span class="badge" id="bgI2" style="display:none"></span></button>
-    <button data-page="patients" onclick="go('patients')"><i data-i="users"></i>Patients</button>
-    <button data-page="reports" onclick="go('reports')"><i data-i="chart"></i>Reports</button>
-  </nav>
-</div>
-
-<!-- NEW INVOICE -->
-<div id="invModal" class="overlay" style="display:none" onclick="if(event.target===this)closeM('invModal')">
-  <div class="modal">
-    <div class="mh"><h3>New invoice</h3><button class="x" onclick="closeM('invModal')">×</button></div>
-    <label style="margin-top:6px">Patient *</label>
-    <div class="row" style="align-items:stretch">
-      <div style="flex:3;position:relative">
-        <input id="pName" autocomplete="off" placeholder="Type to search patients…" oninput="patInput('p')" onfocus="showSug('p')" onblur="setTimeout(()=>hideSug('p'),150)">
-        <div id="pSug" class="sug" style="display:none"></div>
+      <div class="map-card">
+        <div class="map-icon-panel">
+          <div class="map-pin-wrap">
+            <svg class="map-pin-svg" viewBox="0 0 80 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <ellipse cx="40" cy="96" rx="18" ry="4" fill="rgba(26,95,168,0.15)"/>
+              <path d="M40 0C22.3 0 8 14.3 8 32c0 24 32 64 32 64s32-40 32-64C72 14.3 57.7 0 40 0z" fill="url(#pinGrad)"/>
+              <circle cx="40" cy="32" r="14" fill="white" opacity="0.95"/>
+              <text x="40" y="38" text-anchor="middle" font-size="16" fill="#1a5fa8">📍</text>
+              <defs>
+                <linearGradient id="pinGrad" x1="8" y1="0" x2="72" y2="96" gradientUnits="userSpaceOnUse">
+                  <stop offset="0%" stop-color="#2e80d0"/>
+                  <stop offset="100%" stop-color="#0b2d5e"/>
+                </linearGradient>
+              </defs>
+            </svg>
+            <div class="map-pulse"></div>
+          </div>
+          <div class="map-icon-label">Advaita Homoeo Clinic</div>
+          <div class="map-icon-addr">Kodigehalli, Bengaluru – 560097</div>
+        </div>
+        <div class="map-info">
+          <h4>📍 Find Us in Bengaluru</h4>
+          <p>Canara Bank Layout, Rajiv Gandhi Nagar,<br/>Kodigehalli, Bengaluru – 560097<br/><br/>Conveniently accessible from Yelahanka, Hebbal, Mathikere &amp; Rajajinagar.</p>
+          <a class="map-btn" href="https://maps.app.goo.gl/aeyiVC6dor48yZGx5" target="_blank">📍 Get Directions</a>
+        </div>
       </div>
-      <button class="btn ghost" style="flex:1" onclick="openPatient(null,'p')">+ New</button>
-    </div>
-    <div class="pick" id="pInfo"></div>
-    <div id="pAppts"></div>
-    <div class="row">
-      <div><label>Service</label><select id="pDesc" onchange="feeFor()"><option>New Consultation</option><option>Follow-up</option></select></div>
-      <div><label>Amount (₹) *</label><input id="pAmt" type="number" inputmode="decimal"></div>
-    </div>
-    <div class="row">
-      <div><label>Date</label><input id="pDate" type="date"></div>
-      <div><label>Payment</label>
-        <select id="pStatus"><option value="unpaid">Not paid yet</option><option value="Cash">Paid – Cash</option><option value="Phone Pay">Paid – Phone Pay</option><option value="Bharat Pay">Paid – Bharat Pay</option></select></div>
-    </div>
-    <button class="btn block" id="createBtn" onclick="addInvoice()">Create invoice</button>
-  </div>
-</div>
-
-<!-- PAYMENT METHOD PICKER -->
-<div id="payModal" class="overlay" style="display:none" onclick="if(event.target===this)closeM('payModal')">
-  <div class="modal" style="max-width:380px">
-    <div class="mh"><h3>Payment received</h3><button class="x" onclick="closeM('payModal')">×</button></div>
-    <div class="mt" id="payInfo"></div>
-    <div class="pay">
-      <button style="background:linear-gradient(135deg,#34d399,#047857)" onclick="confirmPay('Cash')"><i data-i="rupee"></i>Cash</button>
-      <button style="background:linear-gradient(135deg,#a78bfa,#6d28d9)" onclick="confirmPay('Phone Pay')"><i data-i="phone"></i>Phone Pay</button>
-      <button style="background:linear-gradient(135deg,#38bdf8,#1d4ed8)" onclick="confirmPay('Bharat Pay')"><i data-i="receipt"></i>Bharat Pay</button>
     </div>
   </div>
-</div>
+</section>
 
-<!-- APPOINTMENT BOOK / RESCHEDULE -->
-<div id="apptModal" class="overlay" style="display:none" onclick="if(event.target===this)closeM('apptModal')">
-  <div class="modal">
-    <div class="mh"><h3 id="apptTitle">Book appointment</h3><button class="x" onclick="closeM('apptModal')">×</button></div>
-    <label style="margin-top:6px">Patient *</label>
-    <div class="row" style="align-items:stretch">
-      <div style="flex:3;position:relative">
-        <input id="aName" autocomplete="off" placeholder="Type to search patients…" oninput="patInput('a')" onfocus="showSug('a')" onblur="setTimeout(()=>hideSug('a'),150)">
-        <div id="aSug" class="sug" style="display:none"></div>
-      </div>
-      <button class="btn ghost" style="flex:1" onclick="openPatient(null,'a')">+ New</button>
-    </div>
-    <div class="pick" id="aInfo"></div>
-    <div class="row">
-      <div><label>Date *</label><input id="aDate" type="date"></div>
-      <div><label>Time *</label><input id="aTime" type="time"></div>
-    </div>
-    <label>Visit type</label>
-    <select id="aKind"><option>Follow-up</option><option>New Consultation</option></select>
-    <button class="btn block" id="aSave" onclick="saveAppt()">Save appointment</button>
-  </div>
-</div>
+<!-- ─── FOOTER ─── -->
+<footer>
+  <div class="foot-brand">© 2025 <strong>Advaita Homoeo Clinic</strong> · Dr. Annapoorna (BHMS, MD, SCPH) · Kodigehalli, Bengaluru</div>
+  <p>Healing naturally, one patient at a time 🌿</p>
+</footer>
 
-<!-- PATIENT ADD / EDIT -->
-<div id="patModal" class="overlay" style="display:none" onclick="if(event.target===this)closeM('patModal')">
-  <div class="modal">
-    <div class="mh"><h3 id="patTitle">New patient</h3><button class="x" onclick="closeM('patModal')">×</button></div>
-    <label style="margin-top:6px">Name *</label><input id="mName" autocomplete="off">
-    <div class="row">
-      <div><label>Age</label><input id="mAge" type="number" inputmode="numeric" min="0" max="130"></div>
-      <div><label>Sex</label><select id="mSex"><option value="">–</option><option>Male</option><option>Female</option><option>Other</option></select></div>
-    </div>
-    <label>Phone (for reminders)</label><input id="mPhone" type="tel" inputmode="tel">
-    <button class="btn block" id="mSave" onclick="savePatient()">Save patient</button>
-  </div>
-</div>
-
-<div id="print"></div>
-
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<style>
+.book-btn{background:linear-gradient(135deg,#f0b429,#d99a00);color:#0b2d5e;border:0;cursor:pointer;font-family:inherit}
+.book-btn:hover{transform:translateY(-2px)}
+#bkM{position:fixed;inset:0;background:rgba(11,45,94,.55);display:none;align-items:center;justify-content:center;z-index:1000;padding:16px}
+#bkM.on{display:flex}
+.bk{background:#fff;border-radius:18px;max-width:460px;width:100%;max-height:90vh;overflow:auto;padding:22px;position:relative;font-family:'Nunito',sans-serif;color:#1a2e45}
+.bk h3{font-family:'Playfair Display',serif;color:#0b2d5e;margin:0 0 4px}
+.bk p.s{font-size:.8rem;color:#5b7a99;margin:0 0 14px}
+.bk-x{position:absolute;top:10px;right:14px;border:0;background:none;font-size:1.6rem;cursor:pointer;color:#5b7a99}
+.bk-g{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.bk-o{border:1.5px solid #b8d9f5;background:#f0f7ff;border-radius:12px;padding:10px 12px;cursor:pointer;font:inherit;color:#0b2d5e;text-align:left;flex:1;min-width:130px}
+.bk-o b{display:block}.bk-o small{color:#5b7a99}
+.bk-o.sel,.bk-slot.sel,.bk-d.sel{background:#1a5fa8;border-color:#1a5fa8;color:#fff}.bk-o.sel small{color:#dbeafe}
+.bk-d,.bk-slot{border:1.5px solid #b8d9f5;background:#fff;border-radius:10px;padding:7px 11px;cursor:pointer;font:inherit;font-size:.82rem;color:#0b2d5e}
+.bk-slot:disabled{opacity:.35;text-decoration:line-through;cursor:not-allowed}
+.bk input,.bk select{width:100%;padding:10px 12px;border:1.5px solid #b8d9f5;border-radius:10px;font:inherit;margin-bottom:10px}
+.bk-go{width:100%;border:0;border-radius:30px;padding:12px;background:linear-gradient(135deg,#2e80d0,#0b2d5e);color:#fff;font:inherit;font-weight:700;cursor:pointer;margin-top:6px}
+.bk-go:disabled{opacity:.5}
+.bk-m{font-size:.82rem;margin-top:10px;color:#b91c1c}
+.bk-sm{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:#5b7a99;margin:6px 0}
+</style>
+<div id="bkM" onclick="if(event.target===this)bkClose()"><div class="bk">
+ <button class="bk-x" onclick="bkClose()" aria-label="Close">×</button>
+ <h3>Book an appointment</h3><p class="s">Advaita Homoeo Clinic · Dr. Annapoorna</p>
+ <div id="bk1"><div class="bk-sm">1 · Type of visit</div><div class="bk-g" id="bkT"></div>
+  <div class="bk-sm">2 · Choose a date</div><div class="bk-g" id="bkD"></div>
+  <div class="bk-sm" id="bkSL" style="display:none">3 · Choose a time</div><div class="bk-g" id="bkS"></div>
+  <button class="bk-go" id="bkN" disabled onclick="bkNext()">Continue</button></div>
+ <div id="bk2" style="display:none"><div class="bk-sm" id="bkSum"></div>
+  <input id="bkNm" placeholder="Patient full name" autocomplete="name">
+  <input id="bkAg" type="number" min="0" max="130" placeholder="Age">
+  <select id="bkSx"><option value="">Sex</option><option>Female</option><option>Male</option><option>Other</option></select>
+  <input id="bkPh" type="tel" placeholder="Mobile number (10 digits)" autocomplete="tel">
+  <button class="bk-go" id="bkC" onclick="bkSubmit()">Confirm appointment</button>
+  <button class="bk-o" style="margin-top:8px;width:100%;text-align:center" onclick="bkBack()">← Back</button></div>
+ <div id="bk3" style="display:none"><h3>✅ Appointment booked</h3><p class="s" id="bkDone"></p>
+  <a class="bk-go" id="bkWa" target="_blank" style="display:block;text-align:center;text-decoration:none">Message the clinic on WhatsApp</a></div>
+ <div class="bk-m" id="bkMsg"></div>
+</div></div>
 <script>
-/* ============ CONFIG: paste your two values from Supabase (see SETUP.md) ============ */
-const SUPABASE_URL='https://gwltbsxdcdscegxqjavf.supabase.co';
-const SUPABASE_KEY='sb_publishable_E46a2svTudfTI9cirNL7Pw_HVcw0ZWk';
-/* =================================================================================== */
-
-const $=id=>document.getElementById(id);
-const keysSet=!SUPABASE_URL.startsWith('PASTE')&&!SUPABASE_KEY.startsWith('PASTE');
-const configured=keysSet&&!!window.supabase;
-const demo=!keysSet; // no Supabase details pasted: run on browser storage for testing
-const sb=configured?supabase.createClient(SUPABASE_URL,SUPABASE_KEY):demo?localSb():null;
-
-// Tiny stand-in for the Supabase client, used only in demo mode. Data stays in this browser.
-function localSb(){
-  const KEY='clinicDemoDB';
-  const get=()=>{try{return JSON.parse(localStorage.getItem(KEY))||{seq:{}}}catch(e){return {seq:{}}}};
-  class Q{
-    constructor(t){this.t=t;this.op=null;this.f=[];this.ret=false;this.one=null}
-    select(){if(!this.op)this.op='select';else this.ret=true;return this}
-    insert(r){this.op='insert';this.pay=r;return this}
-    update(v){this.op='update';this.pay=v;return this}
-    delete(){this.op='delete';return this}
-    upsert(v){this.op='upsert';this.pay=v;return this}
-    eq(c,v){this.f.push(r=>r[c]===v);return this}
-    in(c,a){this.f.push(r=>a.includes(r[c]));return this}
-    gt(c,v){this.f.push(r=>r[c]>v);return this}
-    order(c,o){this.ord=[c,!(o&&o.ascending===false)];return this}
-    range(a,b){this.rng=[a,b];return this}
-    single(){this.one='single';return this}
-    maybeSingle(){this.one='maybe';return this}
-    then(ok,bad){try{ok(this.exec())}catch(e){(bad||ok)({data:null,error:{message:String(e.message||e)}})}}
-    exec(){
-      const d=get(),t=this.t,tbl=d[t]=d[t]||[],m=r=>this.f.every(fn=>fn(r));
-      let out=[];
-      if(this.op==='select')out=tbl.filter(m);
-      else if(this.op==='insert'){
-        const defs=t==='appointments'?{status:'Scheduled',reminded_at:null}:t==='invoices'?{paid:false}:{}; // column defaults, as in the real database
-        out=[].concat(this.pay).map(r=>{d.seq[t]=(d.seq[t]||0)+1;return Object.assign({user_id:'demo',created_at:new Date().toISOString()},defs,r,{id:d.seq[t]})});
-        out.forEach(r=>tbl.push(r));
-      }else if(this.op==='update'){out=tbl.filter(m);out.forEach(r=>Object.assign(r,this.pay))}
-      else if(this.op==='delete'){
-        out=tbl.filter(m);d[t]=tbl.filter(r=>!m(r));
-        if(t==='patients'){
-          (d.invoices||[]).forEach(i=>{if(out.some(p=>p.id===i.patient_id))i.patient_id=null});
-          const gone=(d.appointments||[]).filter(a=>out.some(p=>p.id===a.patient_id)).map(a=>a.id);
-          d.appointments=(d.appointments||[]).filter(a=>!gone.includes(a.id));
-          (d.invoices||[]).forEach(i=>{if(gone.includes(i.appointment_id))i.appointment_id=null});
-        }
-        if(t==='appointments')(d.invoices||[]).forEach(i=>{if(out.some(a=>a.id===i.appointment_id))i.appointment_id=null});
-      }else if(this.op==='upsert'){
-        if(tbl[0])Object.assign(tbl[0],this.pay);else tbl.push(Object.assign({user_id:'demo'},this.pay));
-        out=[tbl[0]];
-      }
-      localStorage.setItem(KEY,JSON.stringify(d));
-      if(this.ord){const[c,asc]=this.ord;out=out.slice().sort((a,b)=>(a[c]>b[c]?1:a[c]<b[c]?-1:0)*(asc?1:-1))}
-      if(this.rng)out=out.slice(this.rng[0],this.rng[1]+1);
-      if(this.op!=='select'&&!this.ret)return{data:null,error:null};
-      return{data:this.one==='single'?out[0]:this.one==='maybe'?(out[0]||null):out,error:null};
-    }
-  }
-  const SK='clinicDemoSession';
-  return{
-    from:t=>new Q(t),
-    auth:{
-      signInWithPassword:async({email,password})=>{
-        if(password!=='demo1234')return{error:{message:'Invalid login credentials'}};
-        sessionStorage.setItem(SK,email||'demo');return{error:null};
-      },
-      getSession:async()=>({data:{session:sessionStorage.getItem(SK)?{}:null}}),
-      signOut:async()=>{sessionStorage.removeItem(SK);return{error:null}},
-      onAuthStateChange:()=>{},
-      updateUser:async()=>({error:{message:'Password change is not available in demo mode.'}}),
-      resetPasswordForEmail:async()=>({error:{message:'Password reset is not available in demo mode.'}})
-    }
-  };
+(function(){
+const U='https://gwltbsxdcdscegxqjavf.supabase.co',K='sb_publishable_E46a2svTudfTI9cirNL7Pw_HVcw0ZWk';
+const rpc=(f,b)=>fetch(U+'/rest/v1/rpc/'+f,{method:'POST',headers:{apikey:K,'Content-Type':'application/json'},body:JSON.stringify(b||{})}).then(r=>r.json());
+const $=id=>document.getElementById(id),mn=t=>{const p=t.split(':');return p[0]*60+ +p[1]};
+const fmt=x=>{const h=Math.floor(x/60),m=x%60;return ((h+11)%12+1)+':'+String(m).padStart(2,'0')+(h<12?' AM':' PM')};
+const hhmm=x=>String(Math.floor(x/60)).padStart(2,'0')+':'+String(x%60).padStart(2,'0');
+const ymd=d=>new Date(d-d.getTimezoneOffset()*6e4).toISOString().slice(0,10);
+let cfg,kind,date,time,busy=[];
+const dur=()=>kind==='New Consultation'?cfg.durN:cfg.durF;
+const hrs=m=>m>=60&&m%60===0?(m/60)+(m===60?' hour':' hours'):m+' min';
+function slots(){
+  if(!kind||!date){return}
+  const d=dur(),st=cfg.step||30,a=mn(cfg.start),e=mn(cfg.end),n=new Date(),td=date===ymd(n),nm=n.getHours()*60+n.getMinutes();let h='';
+  for(let t=a;t+d<=e;t+=st){const ok=!(td&&t<=nm)&&!busy.some(b=>t<mn(b.s)+b.m&&mn(b.s)<t+d);
+    h+=`<button class="bk-slot${t===time?' sel':''}" ${ok?'':'disabled'} data-t="${t}">${fmt(t)}</button>`}
+  $('bkS').innerHTML=h||'No slots available.';$('bkSL').style.display='block';
+  $('bkS').querySelectorAll('.bk-slot').forEach(b=>b.onclick=()=>{time=+b.dataset.t;slots();$('bkN').disabled=false});
 }
-
-/* ---------- icons ---------- */
-const ICONS={
-  home:'<path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/>',
-  calendar:'<rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/>',
-  receipt:'<path d="M6 2h12v20l-3-2-3 2-3-2-3 2z"/><path d="M9 8h6M9 12h6"/>',
-  users:'<circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c0-3.6 2.9-6 6.5-6s6.5 2.4 6.5 6"/><path d="M16 4.5a3.5 3.5 0 010 7M21.5 20c0-2.8-1.7-4.8-4-5.6"/>',
-  chart:'<path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/>',
-  gear:'<circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/>',
-  plus:'<path d="M12 5v14M5 12h14"/>',
-  check:'<path d="M5 13l4 4L19 7"/>',
-  msg:'<path d="M21 12a8 8 0 01-11.6 7.1L4 20l1-4.6A8 8 0 1121 12z"/>',
-  phone:'<path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/>',
-  bell:'<path d="M6 8a6 6 0 0112 0c0 7 3 8 3 8H3s3-1 3-8M10 20a2 2 0 004 0"/>',
-  logout:'<path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4M16 17l5-5-5-5M21 12H9"/>',
-  download:'<path d="M12 3v12M7 10l5 5 5-5M4 21h16"/>',
-  search:'<circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/>',
-  rupee:'<path d="M6 4h12M6 9h12M9 4c6 0 6 8 0 8H6l8 8"/>',
-  print:'<path d="M6 9V3h12v6M6 18H4v-7h16v7h-2M7 14h10v7H7z"/>',
-  edit:'<path d="M4 20h4L19 9l-4-4L4 16z"/>',
-  trash:'<path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13"/>',
-  clock:'<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>'
+async function pickDate(d){date=d;time=null;$('bkN').disabled=true;$('bkMsg').textContent='';
+  document.querySelectorAll('.bk-d').forEach(b=>b.classList.toggle('sel',b.dataset.d===d));
+  $('bkS').textContent='Loading…';busy=await rpc('booking_busy',{d});if(!Array.isArray(busy))busy=[];slots()}
+window.openBook=async function(){
+  $('bkM').classList.add('on');$('bk1').style.display='block';$('bk2').style.display=$('bk3').style.display='none';
+  $('bkT').innerHTML=['New Consultation','Follow-up'].map(k=>`<button class="bk-o" data-k="${k}"><b>${k}</b><small>about ${hrs(k==='New Consultation'?cfg.durN:cfg.durF)}</small></button>`).join('');
+  $('bkT').querySelectorAll('.bk-o').forEach(b=>b.onclick=()=>{kind=b.dataset.k;time=null;$('bkN').disabled=true;
+    $('bkT').querySelectorAll('.bk-o').forEach(x=>x.classList.toggle('sel',x===b));if(date)pickDate(date)});
+  $('bkD').innerHTML=cfg.days.map(d=>`<button class="bk-d" data-d="${d}">${new Date(d+'T00:00').toLocaleDateString('en-IN',{weekday:'short',day:'numeric',month:'short'})}</button>`).join('');
+  $('bkD').querySelectorAll('.bk-d').forEach(b=>b.onclick=()=>{if(!kind){$('bkMsg').textContent='Please choose the type of visit first.';return}pickDate(b.dataset.d)});
 };
-const ic=n=>`<svg class="i" viewBox="0 0 24 24">${ICONS[n]||''}</svg>`;
-function paintIcons(root){(root||document).querySelectorAll('[data-i]').forEach(el=>{el.outerHTML=ic(el.dataset.i)})}
-
-/* ---------- state & helpers ---------- */
-const DEFAULT_S={clinic:'My Clinic',doc:'Dr.',addr:'',feeN:'',feeF:'',days:1};
-let inv=[],patients=[],appts=[],pmap=new Map(),cur={p:null,a:null},curApt=null,S=Object.assign({},DEFAULT_S),unlocked=false,recovering=/type=recovery/.test(location.hash);
-let page='home',invTab='due',apptTab='up',hist={q:'',m:'',n:25};
-const today=()=>{const d=new Date();return new Date(d-d.getTimezoneOffset()*6e4).toISOString().slice(0,10)};
-const inr=n=>'₹'+Number(n).toLocaleString('en-IN');
-const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const daysAgo=d=>Math.floor((new Date(today())-new Date(d))/864e5);
-const pkey=n=>n.trim().toLowerCase();
-const addDays=(ds,n)=>{const d=new Date(ds+'T00:00');d.setDate(d.getDate()+n);return new Date(d-d.getTimezoneOffset()*6e4).toISOString().slice(0,10)};
-const fmtD=ds=>new Date(ds+'T00:00').toLocaleDateString('en-IN',{weekday:'short',day:'numeric',month:'short'});
-const fmtDL=ds=>new Date(ds+'T00:00').toLocaleDateString('en-IN',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
-const fmtT=t=>{const[h,m]=t.split(':').map(Number);return (h%12||12)+':'+String(m).padStart(2,'0')+' '+(h<12?'AM':'PM')};
-const mName=m=>new Date(m+'-01T00:00').toLocaleString('en-IN',{month:'long',year:'numeric'});
-const AV=['#3b82f6','#8b5cf6','#ec4899','#f97316','#10b981','#06b6d4','#e11d48','#6366f1'];
-const avatar=n=>{const c=AV[[...n].reduce((s,ch)=>s+ch.charCodeAt(0),0)%AV.length];const ini=n.trim().split(/\s+/).slice(0,2).map(w=>w[0]||'').join('').toUpperCase();return `<span class="av" style="background:${c}">${esc(ini||'?')}</span>`};
-function toast(msg){const t=document.createElement('div');t.className='toast';t.textContent=msg;document.body.appendChild(t);setTimeout(()=>t.remove(),2600)}
-const openM=id=>{$(id).style.display='flex'};
-const closeM=id=>{$(id).style.display='none'};
-const emptyBox=(icon,txt)=>`<div class="empty"><div class="eic">${ic(icon)}</div>${txt}</div>`;
-
-/* ---------- database ---------- */
-// earlier invoices were saved as UPI / Card; show them under the new names
-const mapMethod=m=>({UPI:'Bharat Pay',Card:'Phone Pay'}[m]||m||'');
-const fromRow=r=>({id:r.id,pid:r.patient_id,apptId:r.appointment_id||null,name:r.name,phone:r.phone||'',age:'',sex:'',desc:r.descr,amt:Number(r.amt),date:r.inv_date,paid:r.paid,method:mapMethod(r.method),paidOn:r.paid_on||''});
-const toRow=i=>({patient_id:i.pid||null,appointment_id:i.apptId||null,name:i.name,phone:i.phone||null,descr:i.desc,amt:i.amt,inv_date:i.date,paid:i.paid,method:i.method||null,paid_on:i.paidOn||null});
-const patFrom=r=>({id:r.id,name:r.name,age:r.age==null?'':r.age,sex:r.sex||'',phone:r.phone||''});
-const apptFrom=r=>({id:r.id,pid:r.patient_id,date:r.appt_date,time:(r.appt_time||'').slice(0,5),kind:r.kind||'Follow-up',status:r.status||'Scheduled',reminded:r.reminded_at||''});
-// an invoice linked to a patient always shows that patient's current details
-function resolve(){
-  pmap=new Map(patients.map(p=>[p.id,p]));
-  inv.forEach(i=>{const p=pmap.get(i.pid);if(p){i.name=p.name;i.phone=p.phone;i.age=p.age;i.sex=p.sex}else{i.pid=null}});
-}
-const gkey=i=>i.pid?'p'+i.pid:'n'+pkey(i.name);
-const pvalue=p=>p.name;
-const pdet=p=>[p.age!==''?p.age+' yrs':'',p.sex,p.phone].filter(Boolean).join(' · ');
-async function fetchAll(table,order){
-  let rows=[],from=0;
-  for(;;){ // fetch in pages of 1000
-    const r=await sb.from(table).select('*').order(order,{ascending:false}).range(from,from+999);
-    if(r.error)throw r.error;
-    rows=rows.concat(r.data);if(r.data.length<1000)break;from+=1000;
-  }
-  return rows;
-}
-async function run(p){
-  const r=await p;
-  if(r.error){alert('Could not save: '+r.error.message+'\n\nPlease check your internet connection and try again.');throw r.error}
-  return r;
-}
-async function loadAll(){
-  patients=(await fetchAll('patients','id')).map(patFrom).sort((a,b)=>a.name.localeCompare(b.name));
-  inv=(await fetchAll('invoices','id')).map(fromRow);
-  appts=(await fetchAll('appointments','id')).map(apptFrom);
-  resolve();
-  const s=await sb.from('settings').select('data').maybeSingle();
-  if(s.error)throw s.error;
-  S=Object.assign({},DEFAULT_S,s.data&&s.data.data||{});
-}
-async function refresh(){
-  if(!unlocked||document.hidden)return;
-  try{await loadAll();render()}catch(e){}
-}
-
-/* ---------- login ---------- */
-function showLogin(msg){
-  unlocked=false;inv=[];patients=[];appts=[];cur.p=cur.a=null;$('app').style.display='none';['invModal','payModal','apptModal','patModal'].forEach(closeM);$('print').innerHTML='';
-  $('lock').style.display='flex';$('fLogin').style.display=recovering?'none':'block';$('fRecover').style.display=recovering?'block':'none';
-  $('lErr').className='err';$('lErr').textContent=msg||'';
-  $('lPw').value='';
-  setTimeout(()=>$(recovering?'rPw1':$('lEmail').value?'lPw':'lEmail').focus(),50);
-}
-async function doLogin(){
-  const email=$('lEmail').value.trim(),pw=$('lPw').value;
-  if(!email||!pw){$('lErr').textContent='Enter email and password.';return}
-  $('lBtn').disabled=true;$('lErr').textContent='';
-  const {error}=await sb.auth.signInWithPassword({email,password:pw});
-  $('lBtn').disabled=false;
-  if(error){$('lPw').value='';$('lErr').textContent=/invalid/i.test(error.message)?'Wrong email or password.':error.message;return}
-  await enter();
-}
-async function doForgot(){
-  const email=$('lEmail').value.trim();
-  if(!email){$('lErr').className='err';$('lErr').textContent='Type your email above first, then click "Forgot password?".';return}
-  const {error}=await sb.auth.resetPasswordForEmail(email,{redirectTo:location.origin+location.pathname});
-  if(error){$('lErr').className='err';$('lErr').textContent=error.message;return}
-  $('lErr').className='ok2';$('lErr').textContent='If this email is registered, a reset link has been sent. Check your inbox (and spam).';
-}
-async function doRecover(){
-  const a=$('rPw1').value;
-  if(a.length<8){$('lErr').textContent='Use at least 8 characters.';return}
-  if(a!==$('rPw2').value){$('lErr').textContent='Passwords do not match.';return}
-  const {error}=await sb.auth.updateUser({password:a});
-  if(error){$('lErr').textContent=error.message;return}
-  recovering=false;history.replaceState(null,'',location.pathname);await enter();
-}
-async function enter(){
-  try{await loadAll()}catch(e){showLogin('Could not load data: '+e.message);return}
-  unlocked=true;$('lock').style.display='none';$('app').style.display='flex';
-  fillSettings();$('pDate').value=today();feeFor();
-  let p='home';try{p=sessionStorage.getItem('page')||'home'}catch(e){}
-  go(p);bump();nag();
-}
-async function signOut(){await sb.auth.signOut();showLogin()}
-async function changePw(){
-  const a=$('npw1').value;
-  if(a.length<8)return alert('Use at least 8 characters.');
-  if(a!==$('npw2').value)return alert('Passwords do not match.');
-  const {error}=await sb.auth.updateUser({password:a});
-  if(error)return alert(error.message);
-  $('npw1').value=$('npw2').value='';toast('Password changed');
-}
-// auto sign-out after 15 minutes without activity
-let idle;function bump(){clearTimeout(idle);if(unlocked)idle=setTimeout(signOut,15*60*1000)}
-['click','keydown','mousemove','touchstart','scroll'].forEach(e=>document.addEventListener(e,bump,{passive:true}));
-
-/* ---------- navigation ---------- */
-const TITLES={home:'Dashboard',appts:'Appointments',invoices:'Invoices',patients:'Patients',reports:'Reports',settings:'Settings'};
-function go(p){
-  page=p;try{sessionStorage.setItem('page',p)}catch(e){}
-  document.querySelectorAll('.page').forEach(s=>s.classList.toggle('on',s.id==='pg-'+p));
-  document.querySelectorAll('[data-page]').forEach(b=>b.classList.toggle('on',b.dataset.page===p));
-  $('pageTitle').textContent=TITLES[p];
-  $('gearBtn').style.display=p==='settings'?'none':'';
-  window.scrollTo(0,0);render();
-}
-function setInvTab(t){invTab=t;renderInvoices()}
-function setApptTab(t){apptTab=t;renderAppts()}
-
-function render(){
-  if(!unlocked)return;
-  resolve();
-  $('brandName').textContent=S.clinic;$('brandDoc').textContent=S.doc;
-  const un=inv.filter(i=>!i.paid),t=today(),tm=addDays(t,1);
-  const upA=appts.filter(a=>a.status==='Scheduled'&&a.date>=t);
-  const need=upA.filter(a=>a.date<=tm&&!a.reminded);
-  const missed=appts.filter(a=>a.status==='Scheduled'&&a.date<t);
-  // sidebar / tab badges
-  [['bgI',un.length],['bgI2',un.length],['bgA',need.length+missed.length],['bgA2',need.length+missed.length]].forEach(([id,n])=>{$(id).style.display=n?'':'none';$(id).textContent=n});
-  document.title=(un.length?'('+un.length+') ':'')+'Clinic Invoices';
-  const sub={home:()=>{const h=new Date().getHours();return (h<12?'Good morning':h<17?'Good afternoon':'Good evening')+(S.doc?', '+S.doc:'')+' · '+fmtDL(t)},
-    appts:()=>upA.length+' upcoming',invoices:()=>un.length?un.length+' unpaid · '+inr(un.reduce((s,i)=>s+i.amt,0))+' to collect':'All payments collected',
-    patients:()=>patients.length+' patients',reports:()=>'Billing summary & Excel export',settings:()=>'Clinic, security and backup'};
-  $('pageSub').textContent=(sub[page]||(()=>''))();
-  if(page==='home')renderHome();
-  else if(page==='appts')renderAppts();
-  else if(page==='invoices')renderInvoices();
-  else if(page==='patients')renderPatients();
-  else if(page==='reports')fillReport();
-}
-
-/* ---------- HOME ---------- */
-function renderHome(){
-  const t=today(),tm=addDays(t,1),mo=t.slice(0,7);
-  const un=inv.filter(i=>!i.paid),due=un.reduce((s,i)=>s+i.amt,0);
-  const over=un.filter(i=>daysAgo(i.date)>=S.days).length;
-  const col=inv.filter(i=>i.paid&&(i.paidOn||'').slice(0,7)===mo).reduce((s,i)=>s+i.amt,0);
-  const todayA=appts.filter(a=>a.status==='Scheduled'&&a.date===t).sort((a,b)=>a.time.localeCompare(b.time));
-  const need=appts.filter(a=>a.status==='Scheduled'&&a.date>=t&&a.date<=tm&&!a.reminded);
-  $('stDue').textContent=inr(due);$('stDueL').textContent=un.length?un.length+' unpaid'+(over?' · '+over+' overdue':''):'Nothing to collect';
-  $('stAp').textContent=todayA.length;$('stApL').textContent=need.length?need.length+' reminder'+(need.length>1?'s':'')+' to send':'Appointments today';
-  $('stCol').textContent=inr(col);$('stPat').textContent=patients.length;
-  // reminders to send
-  $('homeRem').innerHTML=need.length?`<div class="card" style="border-color:rgba(217,119,6,.4)"><div class="sec-h"><h2>💬 Send appointment reminders (${need.length})</h2></div>`+
-    need.sort((a,b)=>a.date.localeCompare(b.date)||a.time.localeCompare(b.time)).map(a=>{const p=pmap.get(a.pid)||{name:'?'};
-    return `<div class="item" style="box-shadow:none"><div class="r1">${avatar(p.name)}<div class="grow"><div class="nm">${esc(p.name)}</div><div class="mt">${a.date===t?'Today':'Tomorrow'} · ${esc(fmtT(a.time))} · ${esc(a.kind)}</div></div><button class="btn wa sm" onclick="remindAppt(${a.id})">${ic('msg')}Send reminder</button></div></div>`}).join('')+`</div>`:'';
-  $('homeToday').innerHTML=todayA.length?todayA.map(apptCard).join(''):emptyBox('calendar','No appointments today.');
-  const dueList=un.slice().sort((a,b)=>a.date.localeCompare(b.date)||a.id-b.id).slice(0,5);
-  $('homeDue').innerHTML=dueList.length?dueList.map(invCard).join(''):emptyBox('check','All payments collected 🎉');
-}
-
-/* ---------- INVOICES ---------- */
-function feeFor(){$('pAmt').value=$('pDesc').value==='Follow-up'?S.feeF:S.feeN}
-function invCard(i){
-  const age=daysAgo(i.date),over=!i.paid&&age>=S.days;
-  const tag=i.paid?`<span class="tag t-green">PAID · ${esc(i.method)}</span>`:over?`<span class="tag t-red">OVERDUE · ${age}d</span>`:`<span class="tag t-amber">UNPAID${age?' · '+age+'d':' · today'}</span>`;
-  const apt=i.apptId&&appts.find(a=>a.id===i.apptId);
-  const acts=i.paid
-    ?`<button class="btn ghost sm" onclick="printInv(${i.id})">${ic('print')}Print</button><button class="btn ghost sm" onclick="undo(${i.id})">Undo paid</button><button class="btn ghost sm red" onclick="del(${i.id})">${ic('trash')}</button>`
-    :`<button class="btn green sm" onclick="markPaid(${i.id})">${ic('check')}Mark paid</button>${i.phone?`<button class="btn wa sm" onclick="remind(${i.id})">${ic('msg')}Remind</button><a href="tel:${esc(i.phone)}" class="btn ghost sm">${ic('phone')}Call</a>`:''}<button class="btn ghost sm" onclick="printInv(${i.id})">${ic('print')}</button><button class="btn ghost sm red" onclick="del(${i.id})">${ic('trash')}</button>`;
-  return `<div class="item ${over?'over':''}" id="inv-${i.id}"><div class="r1">${avatar(i.name)}<div class="grow"><div class="nm">${esc(i.name)} ${tag}</div>
-  <div class="mt">#${i.id} · ${esc(i.desc)} · ${esc(i.date)}${apt?' · from appointment '+esc(fmtD(apt.date)):''}</div></div><div class="amt">${inr(i.amt)}</div></div><div class="acts">${acts}</div></div>`;
-}
-function renderInvoices(){
-  $('iTabDue').classList.toggle('on',invTab==='due');$('iTabPaid').classList.toggle('on',invTab==='paid');
-  $('invDue').style.display=invTab==='due'?'':'none';$('invPaid').style.display=invTab==='paid'?'':'none';
-  const un=inv.filter(i=>!i.paid).sort((a,b)=>a.date.localeCompare(b.date)||a.id-b.id);
-  $('iTabDue').textContent='To collect'+(un.length?' ('+un.length+')':'');
-  if(invTab==='due'){
-    const tot=un.reduce((s,i)=>s+i.amt,0),over=un.filter(i=>daysAgo(i.date)>=S.days).length;
-    $('dueBanner').innerHTML=un.length?`<div class="notice ${over?'red':''}">${ic('rupee')}<span>${un.length} unpaid invoice${un.length>1?'s':''} · <b>${inr(tot)}</b> to collect${over?' · '+over+' overdue':''}</span></div>`:'';
-    $('dueList').innerHTML=un.length?un.map(invCard).join(''):emptyBox('check','All payments collected 🎉');
-  }else{
-    const months=[...new Set(inv.filter(i=>i.paid).map(i=>i.date.slice(0,7)))].sort().reverse();
-    $('hM').innerHTML='<option value="">All months</option>'+months.map(m=>`<option value="${m}">${esc(mName(m))}</option>`).join('');
-    $('hM').value=months.includes(hist.m)?hist.m:'';
-    renderHistory();
-  }
-}
-function renderHistory(){
-  const q=hist.q.trim().toLowerCase();
-  const all=inv.filter(i=>i.paid&&(!hist.m||i.date.slice(0,7)===hist.m)&&(!q||i.name.toLowerCase().includes(q)))
-    .sort((a,b)=>(b.paidOn||'').localeCompare(a.paidOn||'')||b.id-a.id);
-  $('hSum').innerHTML=`<span><b>${all.length}</b> paid invoice${all.length===1?'':'s'}</span><span>Total collected <b>${inr(all.reduce((s,i)=>s+i.amt,0))}</b></span>`;
-  $('histList').innerHTML=all.slice(0,hist.n).map(invCard).join('')||emptyBox('receipt','No paid invoices found.');
-  $('hMore').style.display=all.length>hist.n?'':'none';
-}
-function viewInvoice(id){
-  const i=inv.find(x=>x.id===id);if(!i)return;
-  invTab=i.paid?'paid':'due';hist.q='';hist.m='';hist.n=99999;$('hQ').value='';
-  go('invoices');
-  setTimeout(()=>{const el=$('inv-'+id);if(el){el.scrollIntoView({block:'center',behavior:'smooth'});el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),2000)}},80);
-}
-// new-invoice dialog; optionally pre-filled with a patient and/or an appointment
-function openInvoice(pid,apptId){
-  const a=apptId?appts.find(x=>x.id===apptId):null,p=pmap.get(a?a.pid:pid);
-  $('pName').value=p?p.name:'';cur.p=p?p.id:null;curApt=null;
-  $('pStatus').value='unpaid';$('pDesc').selectedIndex=0;feeFor();$('pDate').value=today();
-  pickPatient('p');
-  if(a)useAppt(a.id);
-  openM('invModal');
-  if(!p)setTimeout(()=>$('pName').focus(),50);
-}
-// appointments of the chosen patient that have not been invoiced yet
-function apptChips(){
-  const box=$('pAppts');
-  const full=cur.p?appts.filter(a=>a.pid===cur.p&&a.status!=='Cancelled'&&a.status!=='No-show'&&!inv.some(i=>i.apptId===a.id)).sort((a,b)=>b.date.localeCompare(a.date)):[];
-  const list=full.slice(0,4);
-  const sel=curApt&&full.find(a=>a.id===curApt);
-  if(sel&&!list.includes(sel))list.unshift(sel);
-  if(!sel)curApt=null;
-  box.innerHTML=list.length?`<label>Use an appointment</label><div class="chips">`+list.map(a=>`<button type="button" class="chip ${a.id===curApt?'on':''}" onclick="useAppt(${a.id})">${a.id===curApt?'✔ ':''}${esc(fmtD(a.date))} · ${esc(fmtT(a.time))} · ${esc(a.kind)}</button>`).join('')+`</div>`:'';
-}
-function useAppt(id){
-  const a=appts.find(x=>x.id===id);if(!a)return;
-  if(curApt===id){curApt=null;apptChips();return} // tap again to untick
-  curApt=id;$('pDesc').value=a.kind;feeFor();$('pDate').value=a.date>today()?today():a.date;apptChips();
-}
-async function addInvoice(){
-  const p=pmap.get(cur.p),amt=parseFloat($('pAmt').value);
-  if(!p){alert('Please choose a patient from the list, or click "+ New" to add one.');return}
-  if(!(amt>0)){alert('Please enter the amount.');return}
-  const st=$('pStatus').value;
-  const i={pid:p.id,apptId:curApt,name:p.name,phone:p.phone,age:p.age,sex:p.sex,desc:$('pDesc').value,amt,date:$('pDate').value||today(),paid:st!=='unpaid',method:st==='unpaid'?'':st,paidOn:st==='unpaid'?'':today()};
-  $('createBtn').disabled=true;
-  try{
-    const r=await run(sb.from('invoices').insert(toRow(i)).select().single());
-    i.id=r.data.id;inv.unshift(i);
-  }catch(e){return}finally{$('createBtn').disabled=false}
-  const a=i.apptId&&appts.find(x=>x.id===i.apptId);
-  if(a&&a.status==='Scheduled'){try{await run(sb.from('appointments').update({status:'Done'}).eq('id',a.id));a.status='Done'}catch(e){}}
-  closeM('invModal');cur.p=null;curApt=null;
-  toast('Invoice #'+i.id+' created');
-  render();
-}
-let payId=null;
-function markPaid(id){const i=inv.find(x=>x.id===id);payId=id;$('payInfo').textContent=i.name+' · '+inr(i.amt);openM('payModal')}
-async function setPaid(i,paid,method){
-  const old={paid:i.paid,method:i.method,paidOn:i.paidOn};
-  i.paid=paid;i.method=paid?method:'';i.paidOn=paid?today():'';
-  try{await run(sb.from('invoices').update({paid:i.paid,method:i.method||null,paid_on:i.paidOn||null}).eq('id',i.id))}
-  catch(e){Object.assign(i,old)}
-  render();
-}
-async function confirmPay(m){const i=inv.find(x=>x.id===payId);closeM('payModal');if(i){await setPaid(i,true,m);toast('Marked as paid · '+m)}}
-async function undo(id){await setPaid(inv.find(x=>x.id===id),false)}
-async function del(id){
-  if(!confirm('Delete this invoice permanently?'))return;
-  try{await run(sb.from('invoices').delete().eq('id',id));inv=inv.filter(x=>x.id!==id);render()}catch(e){}
-}
-function openWa(phone,text){
-  let p=(phone||'').replace(/\D/g,'');
-  if(!p){alert('No phone number saved for this patient.');return false}
-  if(p.length===10)p='91'+p;
-  window.open('https://wa.me/'+p+'?text='+encodeURIComponent(text),'_blank');
-  return true;
-}
-function remind(id){
-  const i=inv.find(x=>x.id===id);
-  openWa(i.phone,`Hello ${i.name}, this is a gentle reminder from ${S.clinic}: payment of ${inr(i.amt)} for ${i.desc} on ${i.date} (Invoice #${i.id}) is pending. Kindly pay at your earliest convenience. Thank you.`);
-}
-function printInv(id){
-  const i=inv.find(x=>x.id===id);
-  $('print').innerHTML=`<h1 style="margin:0">${esc(S.clinic)}</h1><div>${esc(S.doc)}</div><div style="white-space:pre-line">${esc(S.addr)}</div><hr>
-  <h2>INVOICE #${i.id}</h2><div>Date: ${esc(i.date)}</div><div>Patient: <b>${esc(i.name)}</b>${i.age!==''||i.sex?' ('+esc([i.age!==''?i.age+' yrs':'',i.sex].filter(Boolean).join(', '))+')':''}</div>
-  <table><tr><th>Description</th><th style="text-align:right">Amount</th></tr><tr><td>${esc(i.desc)}</td><td style="text-align:right">${inr(i.amt)}</td></tr>
-  <tr><td><b>Total</b></td><td style="text-align:right"><b>${inr(i.amt)}</b></td></tr></table>
-  <h3>${i.paid?'PAID ('+esc(i.method)+') on '+esc(i.paidOn):'PAYMENT PENDING'}</h3>`;
-  setTimeout(()=>{window.print();$('print').innerHTML=''},100);
-}
-
-/* ---------- PATIENTS ---------- */
-// Patient picker, used by the invoice form (pfx 'p') and the appointment form (pfx 'a')
-function pickPatient(pfx){
-  const v=$(pfx+'Name').value.trim().toLowerCase();
-  let p=pmap.get(cur[pfx]);if(p&&p.name.toLowerCase()!==v)p=null; // keep the chosen patient while the box still shows their name
-  if(!p){const m=patients.filter(x=>x.name.toLowerCase()===v);p=m.length===1?m[0]:null}
-  cur[pfx]=p?p.id:null;
-  $(pfx+'Info').textContent=p?'✔ '+(pdet(p)||p.name):'';
-  if(pfx==='p')apptChips();
-}
-function patInput(pfx){pickPatient(pfx);showSug(pfx)}
-function showSug(pfx){
-  const q=$(pfx+'Name').value.trim().toLowerCase(),qd=q.replace(/\s/g,''),box=$(pfx+'Sug');
-  const m=patients.filter(p=>!q||p.name.toLowerCase().includes(q)||(qd&&p.phone.replace(/\s/g,'').includes(qd))).slice(0,8);
-  if(!m.length||(m.length===1&&m[0].id===cur[pfx])){box.style.display='none';return}
-  box.innerHTML=m.map(p=>`<div onmousedown="chooseP('${pfx}',${p.id})"><b>${esc(p.name)}</b><br><span class="mt">${esc(pdet(p)||'No details')}</span></div>`).join('');
-  box.style.display='block';
-}
-function hideSug(pfx){$(pfx+'Sug').style.display='none'}
-function chooseP(pfx,id){$(pfx+'Name').value=pvalue(pmap.get(id));cur[pfx]=id;pickPatient(pfx);hideSug(pfx)}
-let editPid=null,patFor=null;
-function openPatient(id,forPfx){
-  editPid=id;patFor=forPfx||null;
-  const p=id?pmap.get(id):null;
-  $('patTitle').textContent=p?'Edit patient':'New patient';
-  $('mName').value=p?p.name:(forPfx&&!cur[forPfx]?$(forPfx+'Name').value.trim():'');
-  $('mAge').value=p?p.age:'';$('mSex').value=p?p.sex:'';$('mPhone').value=p?p.phone:'';
-  openM('patModal');setTimeout(()=>$('mName').focus(),50);
-}
-async function savePatient(){
-  const name=$('mName').value.trim(),ageS=$('mAge').value.trim(),age=ageS===''?null:parseInt(ageS);
-  if(!name){alert('Please enter the patient name.');return}
-  if(age!==null&&!(age>=0&&age<=130)){alert('Please enter a valid age (0–130).');return}
-  const row={name,age,sex:$('mSex').value||null,phone:$('mPhone').value.trim()||null};
-  if(!editPid&&patients.some(x=>x.name.toLowerCase()===name.toLowerCase()&&(x.phone||'')===(row.phone||''))&&!confirm('A patient with this name and phone already exists. Add anyway?'))return;
-  $('mSave').disabled=true;
-  try{
-    let p;
-    if(editPid){
-      await run(sb.from('patients').update(row).eq('id',editPid));
-      await run(sb.from('invoices').update({name:row.name,phone:row.phone}).eq('patient_id',editPid)); // keep old invoices in step
-      p=pmap.get(editPid);Object.assign(p,patFrom({id:editPid,...row}));
-    }else{
-      const r=await run(sb.from('patients').insert(row).select().single());
-      p=patFrom(r.data);patients.push(p);
-    }
-    patients.sort((a,b)=>a.name.localeCompare(b.name));
-    resolve();
-    if(patFor){$(patFor+'Name').value=pvalue(p);cur[patFor]=p.id;pickPatient(patFor)}
-    closeM('patModal');toast(editPid?'Patient updated':'Patient added');render();
-  }catch(e){}finally{$('mSave').disabled=false}
-}
-async function delPatient(id){
-  const p=pmap.get(id),n=inv.filter(i=>i.pid===id).length,na=appts.filter(a=>a.pid===id).length;
-  if(!confirm('Delete '+p.name+' from the patient list?'+(n?'\nTheir '+n+' invoice(s) will be kept, but no longer linked to a patient.':'')+(na?'\nTheir '+na+' appointment(s) will be deleted.':'')))return;
-  try{await run(sb.from('patients').delete().eq('id',id))}catch(e){return}
-  patients=patients.filter(x=>x.id!==id);appts=appts.filter(a=>a.pid!==id);
-  ['p','a'].forEach(f=>{if(cur[f]===id){cur[f]=null;$(f+'Name').value='';$(f+'Info').textContent=''}});
-  resolve();render();
-}
-function renderPatients(){
-  const q=$('patQ').value.trim().toLowerCase();
-  const stat=new Map();
-  inv.forEach(i=>{if(!i.pid)return;const s=stat.get(i.pid)||{n:0,due:0};s.n++;if(!i.paid)s.due+=i.amt;stat.set(i.pid,s)});
-  const list=patients.filter(p=>!q||p.name.toLowerCase().includes(q)||p.phone.replace(/\s/g,'').includes(q.replace(/\s/g,'')));
-  $('patList2').innerHTML=list.slice(0,60).map(p=>{
-    const s=stat.get(p.id)||{n:0,due:0};
-    return `<div class="item"><div class="r1">${avatar(p.name)}<div class="grow"><div class="nm">${esc(p.name)}${s.due?` <span class="tag t-red">${inr(s.due)} due</span>`:''}</div>
-    <div class="mt">${esc(pdet(p)||'No details')} · ${s.n} invoice${s.n===1?'':'s'}</div></div></div>
-    <div class="acts"><button class="btn sm" onclick="openInvoice(${p.id})">${ic('receipt')}Invoice</button><button class="btn ghost sm" onclick="openAppt(null,${p.id})">${ic('calendar')}Appointment</button><button class="btn ghost sm" onclick="openPatient(${p.id},null)">${ic('edit')}Edit</button><button class="btn ghost sm red" onclick="delPatient(${p.id})">${ic('trash')}</button></div></div>`}).join('')
-    +(list.length>60?`<p class="hint" style="text-align:center">Showing 60 of ${list.length}. Type in the search box to narrow down.</p>`:'')
-    ||emptyBox('users',patients.length?'No match.':'No patients yet. Click “Add patient”.');
-}
-// create patient records from invoices that are not yet linked (old data / imports)
-async function buildPatients(manual){
-  const groups=new Map();
-  inv.filter(i=>!i.pid).forEach(i=>{const k=pkey(i.name),g=groups.get(k)||{name:i.name,phone:i.phone,ids:[]};g.phone=g.phone||i.phone;g.ids.push(i.id);groups.set(k,g)});
-  if(!groups.size){if(manual)alert('All invoices are already linked to patients.');return}
-  if(manual&&!confirm('Create '+groups.size+' patient record(s) from the names on existing invoices? You can add age and sex afterwards.'))return;
-  try{
-    for(const g of groups.values()){
-      const ex=patients.find(p=>p.name.toLowerCase()===g.name.trim().toLowerCase());
-      let pid;
-      if(ex)pid=ex.id;else{const r=await run(sb.from('patients').insert({name:g.name.trim(),phone:g.phone||null}).select().single());pid=r.data.id}
-      for(let k=0;k<g.ids.length;k+=200)await run(sb.from('invoices').update({patient_id:pid}).in('id',g.ids.slice(k,k+200)));
-    }
-    await loadAll();render();if(manual)toast('Patients created from old invoices');
-  }catch(e){}
-}
-
-/* ---------- APPOINTMENTS ---------- */
-let editAid=null;
-function openAppt(id,pid){
-  editAid=id;
-  const a=id?appts.find(x=>x.id===id):null,p=pmap.get(a?a.pid:pid);
-  $('apptTitle').textContent=a?'Reschedule appointment':'Book appointment';
-  $('aName').value=p?p.name:'';cur.a=p?p.id:null;pickPatient('a');
-  $('aDate').value=a?a.date:today();$('aTime').value=a?a.time:'10:00';$('aKind').value=a?a.kind:'Follow-up';
-  openM('apptModal');
-  if(!p)setTimeout(()=>$('aName').focus(),50);
-}
-async function saveAppt(){
-  const p=pmap.get(cur.a),date=$('aDate').value,time=$('aTime').value,kind=$('aKind').value;
-  if(!p){alert('Please choose a patient from the list, or click "+ New" to add one.');return}
-  if(!date||!time){alert('Please choose the date and time.');return}
-  if(date<today()&&!confirm('This date is in the past. Save anyway?'))return;
-  const clash=appts.find(x=>x.status==='Scheduled'&&x.id!==editAid&&x.date===date&&x.time===time);
-  if(clash&&!confirm('Another appointment ('+(pmap.get(clash.pid)||{}).name+') is already at '+fmtT(time)+'. Book anyway?'))return;
-  const row={patient_id:p.id,appt_date:date,appt_time:time,kind};
-  if(!editAid)row.status='Scheduled';
-  $('aSave').disabled=true;
-  try{
-    if(editAid){
-      const a=appts.find(x=>x.id===editAid),moved=a.date!==date||a.time!==time;
-      await run(sb.from('appointments').update(Object.assign({status:'Scheduled'},row,moved?{reminded_at:null}:{})).eq('id',editAid));
-      Object.assign(a,{pid:p.id,date,time,kind,status:'Scheduled'});if(moved)a.reminded='';
-    }else{
-      const r=await run(sb.from('appointments').insert(row).select().single());
-      appts.push(apptFrom(r.data));
-    }
-    closeM('apptModal');toast('Appointment saved');
-    if(page!=='appts'&&page!=='home')go('appts');else render();
-  }catch(e){}finally{$('aSave').disabled=false}
-}
-async function setApptStatus(id,status){
-  const a=appts.find(x=>x.id===id),old=a.status;a.status=status;
-  try{await run(sb.from('appointments').update({status}).eq('id',id))}catch(e){a.status=old}
-  render();
-}
-async function delAppt(id){
-  if(!confirm('Delete this appointment permanently?'))return;
-  try{await run(sb.from('appointments').delete().eq('id',id));appts=appts.filter(x=>x.id!==id);inv.forEach(i=>{if(i.apptId===id)i.apptId=null});render()}catch(e){}
-}
-async function remindAppt(id){
-  const a=appts.find(x=>x.id===id),p=pmap.get(a.pid);
-  const msg=`Hello ${p.name}, this is a reminder from ${S.clinic}${S.doc?' ('+S.doc+')':''} about your ${a.kind.toLowerCase()} appointment on ${fmtDL(a.date)} at ${fmtT(a.time)}. Please reply to confirm, or let us know if you need to reschedule. Thank you.`;
-  if(!openWa(p.phone,msg))return; // opened first, so the browser doesn't block the pop-up
-  const now=new Date().toISOString();
-  try{await run(sb.from('appointments').update({reminded_at:now}).eq('id',id));a.reminded=now;render()}catch(e){}
-}
-const apptDone=id=>setApptStatus(id,'Done'),apptNoShow=id=>setApptStatus(id,'No-show'),apptCancel=id=>setApptStatus(id,'Cancelled');
-function apptCard(a){
-  const p=pmap.get(a.pid)||{name:'(patient deleted)',age:'',sex:'',phone:''},t=today();
-  const sched=a.status==='Scheduled',missed=sched&&a.date<t,linked=inv.find(i=>i.apptId===a.id);
-  const tag=!sched?`<span class="tag ${a.status==='Done'?'t-green':'t-gray'}">${esc(a.status.toUpperCase())}</span>`
-    :missed?'<span class="tag t-red">PAST – UPDATE</span>'
-    :a.date===t?'<span class="tag t-red">TODAY</span>':a.date===addDays(t,1)?'<span class="tag t-amber">TOMORROW</span>':'';
-  const rem=sched&&!missed?(a.reminded?`<span class="tag t-green">Reminded ${esc(new Date(a.reminded).toLocaleDateString('en-IN',{day:'numeric',month:'short'}))}</span>`:'<span class="tag t-amber">Not reminded</span>'):'';
-  const inl=linked?`<span class="tag t-blue">Invoiced #${linked.id}</span>`:'';
-  const B=(txt,fn,cls,icon)=>`<button class="btn ${cls} sm" onclick="${fn}(${a.id})">${icon?ic(icon):''}${txt}</button>`;
-  const mkInv=linked?`<button class="btn ghost sm" onclick="viewInvoice(${linked.id})">${ic('receipt')}View invoice</button>`:B('Create invoice','openInvoiceFromAppt','green','receipt');
-  const acts=!sched?(linked?mkInv:a.status==='Done'?mkInv:'')+B('Reschedule','openAppt','ghost')+B('Delete','delAppt','ghost red')
-    :missed?mkInv+B('Done','apptDone','ghost','check')+B('No-show','apptNoShow','ghost')+B('Reschedule','openAppt','ghost')+B('Cancel','apptCancel','ghost red')
-    :(a.reminded?B('Remind again','remindAppt','ghost','msg'):B('Send reminder','remindAppt','wa','msg'))+mkInv+(p.phone?`<a href="tel:${esc(p.phone)}" class="btn ghost sm">${ic('phone')}Call</a>`:'')+B('Done','apptDone','ghost','check')+B('Reschedule','openAppt','ghost')+B('Cancel','apptCancel','ghost red');
-  return `<div class="item ${missed?'over':''}"><div class="r1">${avatar(p.name)}<div class="grow"><div class="nm">${esc(p.name)} ${tag} ${rem} ${inl}</div>
-  <div class="mt">${esc(a.kind)}${pdet(p)?' · '+esc(pdet(p)):''}</div></div>
-  <div style="text-align:right;white-space:nowrap"><div class="amt" style="color:var(--brand)">${esc(fmtT(a.time))}</div><div class="mt">${esc(fmtD(a.date))}</div></div></div>
-  <div class="acts">${acts}</div></div>`;
-}
-const openInvoiceFromAppt=id=>openInvoice(null,id);
-function renderAppts(){
-  $('aTabUp').classList.toggle('on',apptTab==='up');$('aTabPast').classList.toggle('on',apptTab==='past');
-  const t=today(),tm=addDays(t,1);
-  const byTime=(a,b)=>a.date.localeCompare(b.date)||a.time.localeCompare(b.time);
-  const sch=appts.filter(a=>a.status==='Scheduled').sort(byTime);
-  const missed=sch.filter(a=>a.date<t),up=sch.filter(a=>a.date>=t);
-  const need=up.filter(a=>a.date<=tm&&!a.reminded);
-  if(apptTab==='up'){
-    $('apptBanner').innerHTML=(need.length||missed.length)
-      ?`<div class="notice">${ic('msg')}<span>${need.length?'<b>'+need.length+' reminder'+(need.length>1?'s':'')+' to send</b> for today/tomorrow':''}${need.length&&missed.length?' · ':''}${missed.length?missed.length+' past appointment'+(missed.length>1?'s':'')+' to update':''}</span></div>`:'';
-    let html='';
-    if(missed.length)html+='<div class="dayh">Needs update</div>'+missed.map(apptCard).join('');
-    const days=[...new Set(up.map(a=>a.date))];
-    days.forEach(d=>{html+=`<div class="dayh">${d===t?'Today':d===tm?'Tomorrow':esc(fmtD(d))}</div>`+up.filter(a=>a.date===d).map(apptCard).join('')});
-    $('apptList').innerHTML=html||emptyBox('calendar','No upcoming appointments. Click “Book appointment”.');
-  }else{
-    $('apptBanner').innerHTML='';
-    const past=appts.filter(a=>a.status!=='Scheduled').sort((a,b)=>byTime(b,a)).slice(0,60);
-    $('apptList').innerHTML=past.map(apptCard).join('')||emptyBox('clock','Nothing here yet.');
-  }
-}
-
-/* ---------- REPORTS ---------- */
-function fillReport(){
-  const names=[...new Map(inv.map(i=>[gkey(i),i.name])).entries()].sort((a,b)=>a[1].localeCompare(b[1]));
-  const mSel=$('rMonth'),pSel=$('rPat'),first=!mSel.options.length,m0=first?today().slice(0,7):mSel.value,p0=pSel.value||'';
-  const months=[...new Set(inv.map(i=>i.date.slice(0,7)).concat(today().slice(0,7)))].sort().reverse();
-  mSel.innerHTML='<option value="">All months</option>'+months.map(m=>`<option value="${m}">${esc(mName(m))}</option>`).join('');
-  mSel.value=months.includes(m0)||m0===''?m0:today().slice(0,7);
-  pSel.innerHTML='<option value="">All patients</option>'+names.map(([k,n])=>`<option value="${esc(k)}">${esc(n)}</option>`).join('');
-  pSel.value=p0;repSummary();
-}
-function repData(){
-  const m=$('rMonth').value,p=$('rPat').value;
-  return inv.filter(i=>(!m||i.date.slice(0,7)===m)&&(!p||gkey(i)===p))
-    .sort((a,b)=>pkey(a.name).localeCompare(pkey(b.name))||a.date.localeCompare(b.date)||a.id-b.id);
-}
-function repSummary(){
-  const d=repData(),t=d.reduce((s,i)=>s+i.amt,0),c=d.filter(i=>i.paid).reduce((s,i)=>s+i.amt,0);
-  const tile=(cls,icn,v,l)=>`<div class="stat ${cls}" style="cursor:default"><div class="ic">${ic(icn)}</div><div class="v">${v}</div><div class="l">${l}</div></div>`;
-  $('rTiles').innerHTML=tile('s-blue','receipt',d.length,'Invoices')+tile('s-violet','rupee',inr(t),'Billed')+tile('s-green','check',inr(c),'Collected')+tile('s-orange','clock',inr(t-c),'Pending');
-  const by={};d.filter(i=>i.paid).forEach(i=>{by[i.method||'Other']=(by[i.method||'Other']||0)+i.amt});
-  const ents=Object.entries(by).sort((a,b)=>b[1]-a[1]);
-  $('rMethods').innerHTML=ents.length?ents.map(([k,v])=>`<div style="margin-bottom:14px"><div style="display:flex;justify-content:space-between;margin-bottom:5px"><b>${esc(k)}</b><span>${inr(v)} <span class="mt">(${Math.round(v*100/c)}%)</span></span></div><div class="bar"><i style="width:${Math.round(v*100/c)}%"></i></div></div>`).join(''):'<div class="mt">No payments collected for this selection.</div>';
-  const g=new Map();
-  d.forEach(i=>{const k=gkey(i),r=g.get(k)||{n:i.name,v:0,b:0,c:0};r.v++;r.b+=i.amt;if(i.paid)r.c+=i.amt;g.set(k,r)});
-  const rows=[...g.values()].sort((a,b)=>b.b-a.b).slice(0,50);
-  $('rTable').innerHTML=rows.length?`<table class="t"><tr><th>Patient</th><th class="n">Visits</th><th class="n">Billed</th><th class="n">Pending</th></tr>`+rows.map(r=>`<tr><td>${esc(r.n)}</td><td class="n">${r.v}</td><td class="n">${inr(r.b)}</td><td class="n" style="${r.b-r.c?'color:var(--red);font-weight:700':''}">${inr(r.b-r.c)}</td></tr>`).join('')+'</table>':'<div class="mt">No invoices for this selection.</div>';
-}
-function exportXlsx(){
-  const d=repData();
-  if(!d.length)return alert('No invoices for this selection.');
-  const age=i=>i.age===''?'':Number(i.age);
-  const rows1=[['Patient','Age','Sex','Phone','Invoice #','Date','Service','Amount (₹)','Status','Payment method','Paid on']]
-    .concat(d.map(i=>[i.name,age(i),i.sex,i.phone,i.id,i.date,i.desc,i.amt,i.paid?'Paid':'Unpaid',i.method,i.paidOn]));
-  const g=new Map();
-  d.forEach(i=>{const k=gkey(i),r=g.get(k)||{n:i.name,a:age(i),s:i.sex,p:i.phone,v:0,b:0,c:0};r.v++;r.b+=i.amt;if(i.paid)r.c+=i.amt;g.set(k,r)});
-  const rows2=[['Patient','Age','Sex','Phone','Visits','Billed (₹)','Collected (₹)','Pending (₹)']];
-  let tv=0,tb=0,tc=0;
-  [...g.values()].sort((a,b)=>a.n.localeCompare(b.n)).forEach(r=>{rows2.push([r.n,r.a,r.s,r.p,r.v,r.b,r.c,r.b-r.c]);tv+=r.v;tb+=r.b;tc+=r.c});
-  rows2.push(['TOTAL','','','',tv,tb,tc,tb-tc]);
-  const m=$('rMonth').value||'AllMonths',p=$('rPat').value?'_'+$('rPat').selectedOptions[0].text.replace(/[^\w]+/g,'_'):'_AllPatients';
-  download(`Invoices_${m}${p}.xlsx`,makeXlsx([['Invoices',rows1,[24,6,8,16,10,12,18,12,10,16,12]],['By Patient',rows2,[24,6,8,16,8,14,14,14]]]),'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
-}
-// minimal .xlsx writer (no external libraries)
-function makeXlsx(sheets){
-  const X=s=>String(s).replace(/[<>&"\u0000-\u0008\u000b\u000c\u000e-\u001f]/g,c=>({'<':'&lt;','>':'&gt;','&':'&amp;','"':'&quot;'}[c]||''));
-  const col=n=>{let s='';for(n++;n>0;n=Math.floor((n-1)/26))s=String.fromCharCode(65+(n-1)%26)+s;return s};
-  const sheetXml=([,rows,widths])=>'<?xml version="1.0" encoding="UTF-8" standalone="yes"?><worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><sheetViews><sheetView workbookViewId="0"><pane ySplit="1" topLeftCell="A2" activePane="bottomLeft" state="frozen"/></sheetView></sheetViews><cols>'
-    +widths.map((w,i)=>`<col min="${i+1}" max="${i+1}" width="${w}" customWidth="1"/>`).join('')+'</cols><sheetData>'
-    +rows.map((r,y)=>`<row r="${y+1}">`+r.map((v,x)=>{
-      const ref=col(x)+(y+1),st=(y===0||r[0]==='TOTAL')?' s="1"':'';
-      return typeof v==='number'?`<c r="${ref}"${st}><v>${v}</v></c>`:`<c r="${ref}"${st} t="inlineStr"><is><t>${X(v)}</t></is></c>`}).join('')+'</row>').join('')
-    +'</sheetData></worksheet>';
-  const files=[
-    ['[Content_Types].xml','<?xml version="1.0" encoding="UTF-8"?><Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types"><Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/><Default Extension="xml" ContentType="application/xml"/><Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/><Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/>'+sheets.map((s,i)=>`<Override PartName="/xl/worksheets/sheet${i+1}.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/>`).join('')+'</Types>'],
-    ['_rels/.rels','<?xml version="1.0" encoding="UTF-8"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships"><Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/></Relationships>'],
-    ['xl/workbook.xml','<?xml version="1.0" encoding="UTF-8"?><workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"><sheets>'+sheets.map((s,i)=>`<sheet name="${X(s[0])}" sheetId="${i+1}" r:id="rId${i+1}"/>`).join('')+'</sheets></workbook>'],
-    ['xl/_rels/workbook.xml.rels','<?xml version="1.0" encoding="UTF-8"?><Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">'+sheets.map((s,i)=>`<Relationship Id="rId${i+1}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet${i+1}.xml"/>`).join('')+`<Relationship Id="rId${sheets.length+1}" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/></Relationships>`],
-    ['xl/styles.xml','<?xml version="1.0" encoding="UTF-8"?><styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main"><fonts count="2"><font><sz val="11"/><name val="Calibri"/></font><font><b/><sz val="11"/><name val="Calibri"/></font></fonts><fills count="2"><fill><patternFill patternType="none"/></fill><fill><patternFill patternType="gray125"/></fill></fills><borders count="1"><border><left/><right/><top/><bottom/><diagonal/></border></borders><cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs><cellXfs count="2"><xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/><xf numFmtId="0" fontId="1" fillId="0" borderId="0" xfId="0" applyFont="1"/></cellXfs></styleSheet>'],
-  ].concat(sheets.map((s,i)=>[`xl/worksheets/sheet${i+1}.xml`,sheetXml(s)]));
-  // store-only ZIP
-  const enc=new TextEncoder(),crcT=(()=>{const t=[];for(let n=0;n<256;n++){let c=n;for(let k=0;k<8;k++)c=c&1?0xEDB88320^(c>>>1):c>>>1;t[n]=c>>>0}return t})();
-  const crc=b=>{let c=0xFFFFFFFF;for(let i=0;i<b.length;i++)c=crcT[(c^b[i])&255]^(c>>>8);return (c^0xFFFFFFFF)>>>0};
-  const parts=[],cen=[];let off=0;
-  files.forEach(([n,t])=>{
-    const nb=enc.encode(n),db=enc.encode(t),cr=crc(db);
-    const h=new DataView(new ArrayBuffer(30));
-    h.setUint32(0,0x04034b50,true);h.setUint16(4,20,true);h.setUint16(6,0x0800,true);h.setUint32(14,cr,true);h.setUint32(18,db.length,true);h.setUint32(22,db.length,true);h.setUint16(26,nb.length,true);
-    parts.push(h.buffer,nb,db);
-    const c=new DataView(new ArrayBuffer(46));
-    c.setUint32(0,0x02014b50,true);c.setUint16(4,20,true);c.setUint16(6,20,true);c.setUint16(8,0x0800,true);c.setUint32(16,cr,true);c.setUint32(20,db.length,true);c.setUint32(24,db.length,true);c.setUint16(28,nb.length,true);c.setUint32(42,off,true);
-    cen.push(c.buffer,nb);off+=30+nb.length+db.length;
-  });
-  const cs=cen.reduce((s,b)=>s+b.byteLength,0),e=new DataView(new ArrayBuffer(22));
-  e.setUint32(0,0x06054b50,true);e.setUint16(8,files.length,true);e.setUint16(10,files.length,true);e.setUint32(12,cs,true);e.setUint32(16,off,true);
-  return new Blob([...parts,...cen,e.buffer]);
-}
-
-/* ---------- SETTINGS & BACKUP ---------- */
-function fillSettings(){$('sClinic').value=S.clinic;$('sDoc').value=S.doc;$('sAddr').value=S.addr;$('sFeeN').value=S.feeN;$('sFeeF').value=S.feeF;$('sDays').value=S.days}
-async function saveSettings(){
-  S.clinic=$('sClinic').value||'My Clinic';S.doc=$('sDoc').value;S.addr=$('sAddr').value;S.feeN=$('sFeeN').value;S.feeF=$('sFeeF').value;S.days=parseInt($('sDays').value)||0;
-  try{await run(sb.from('settings').upsert({data:S},{onConflict:'user_id'}))}catch(e){return}
-  feeFor();render();toast('Settings saved');
-}
-function download(name,data,type){const a=document.createElement('a');a.href=URL.createObjectURL(data instanceof Blob?data:new Blob([data],{type}));a.download=name;a.click()}
-function backup(){download('invoices-backup-'+today()+'.json',JSON.stringify({inv,patients,appts,S}),'application/json')}
-function restore(el){
-  const f=el.files[0];if(!f)return;
-  const r=new FileReader();
-  r.onload=async()=>{
-    let d;
-    try{d=JSON.parse(r.result);if(!Array.isArray(d.inv))throw 0}catch(e){alert('That is not a valid backup file.');el.value='';return}
-    if(!confirm('Replace ALL current data with this backup ('+d.inv.length+' invoices)?\nInvoice numbers will be re-assigned in order.')){el.value='';return}
-    try{
-      await run(sb.from('invoices').delete().gt('id',0));
-      await run(sb.from('patients').delete().gt('id',0));
-      // patients first; remember old id -> new id so everything re-links
-      const idMap=new Map(),apMap=new Map(),oldP=(d.patients||[]).slice().sort((a,b)=>a.id-b.id);
-      for(let k=0;k<oldP.length;k+=500){
-        const chunk=oldP.slice(k,k+500);
-        const r=await run(sb.from('patients').insert(chunk.map(p=>({name:p.name,age:p.age===''||p.age==null?null:Number(p.age),sex:p.sex||null,phone:p.phone||null}))).select('id'));
-        r.data.forEach((row,j)=>idMap.set(chunk[j].id,row.id)); // rows come back in insert order
-      }
-      const oldA=(d.appts||[]).filter(a=>idMap.get(a.pid)).sort((a,b)=>a.id-b.id);
-      for(let k=0;k<oldA.length;k+=500){
-        const chunk=oldA.slice(k,k+500);
-        const r=await run(sb.from('appointments').insert(chunk.map(a=>({patient_id:idMap.get(a.pid),appt_date:a.date,appt_time:a.time,kind:a.kind,status:a.status,reminded_at:a.reminded||null}))).select('id'));
-        r.data.forEach((row,j)=>apMap.set(chunk[j].id,row.id));
-      }
-      const rows=d.inv.slice().sort((a,b)=>a.id-b.id).map(i=>toRow({pid:idMap.get(i.pid)||null,apptId:apMap.get(i.apptId)||null,name:i.name,phone:i.phone,desc:i.desc||'New Consultation',amt:Number(i.amt),date:i.date,paid:!!i.paid,method:mapMethod(i.method),paidOn:i.paidOn}));
-      for(let k=0;k<rows.length;k+=500)await run(sb.from('invoices').insert(rows.slice(k,k+500)));
-      if(d.S){S=Object.assign({},DEFAULT_S,d.S);delete S.next;if(d.S.fee&&!S.feeN)S.feeN=S.feeF=d.S.fee;await run(sb.from('settings').upsert({data:S},{onConflict:'user_id'}))}
-      await loadAll();await buildPatients(false); // old backups: create patients from names
-      fillSettings();render();toast('Backup restored');
-    }catch(e){try{await loadAll();render()}catch(_){}}
-    el.value='';
-  };
-  r.readAsText(f);
-}
-
-/* ---------- ALERTS ---------- */
-function askNotify(){
-  if(!('Notification' in window)){alert('Notifications are not supported in this browser.');return}
-  Notification.requestPermission().then(p=>{if(p==='granted'){toast('Alerts turned on');nag()}})
-}
-function nag(){
-  if(!unlocked)return;
-  if(!('Notification' in window)||Notification.permission!=='granted')return;
-  const un=inv.filter(i=>!i.paid),t=today(),tm=addDays(t,1);
-  const need=appts.filter(a=>a.status==='Scheduled'&&!a.reminded&&(a.date===t||a.date===tm));
-  if(un.length)new Notification('Collect payments: '+un.length+' unpaid ('+inr(un.reduce((s,i)=>s+i.amt,0))+')',{body:un.slice(0,3).map(i=>i.name+' '+inr(i.amt)).join(', ')});
-  if(need.length)new Notification('Send appointment reminders: '+need.length+' pending (today/tomorrow)',{body:need.slice(0,3).map(a=>(pmap.get(a.pid)||{}).name+' '+fmtT(a.time)).join(', ')});
-}
-
-/* ---------- START ---------- */
-(async function start(){
-  paintIcons();
-  if(keysSet&&!configured){showLogin('Could not load the Supabase library. Check your internet connection and refresh.');$('lBtn').disabled=true;return}
-  if(demo){$('demoNote').style.display='block';$('lEmail').value='demo@clinic.test'}
-  sb.auth.onAuthStateChange(ev=>{if(ev==='PASSWORD_RECOVERY'){recovering=true;showLogin()}else if(ev==='SIGNED_OUT'&&unlocked)showLogin()});
-  const {data}=await sb.auth.getSession();
-  if(data.session&&!recovering)await enter();else showLogin();
-  setInterval(nag,30*60*1000);
-  setInterval(refresh,60*1000);
-  document.addEventListener('visibilitychange',refresh);
+window.bkClose=()=>$('bkM').classList.remove('on');
+window.bkNext=()=>{$('bk1').style.display='none';$('bk2').style.display='block';$('bkMsg').textContent='';
+  $('bkSum').textContent=kind+' · '+new Date(date+'T00:00').toLocaleDateString('en-IN',{weekday:'long',day:'numeric',month:'long'})+' · '+fmt(time)};
+window.bkBack=()=>{$('bk2').style.display='none';$('bk1').style.display='block'};
+window.bkSubmit=async function(){
+  const nm=$('bkNm').value.trim(),ag=parseInt($('bkAg').value),sx=$('bkSx').value,ph=$('bkPh').value.replace(/\D/g,'').slice(-10);
+  if(nm.length<2||!(ag>=0&&ag<=130)||!sx||ph.length!==10){$('bkMsg').textContent='Please fill name, age, sex and a 10-digit mobile number.';return}
+  $('bkC').disabled=true;$('bkMsg').textContent='';
+  let r;try{r=await rpc('book_appt',{p_name:nm,p_age:ag,p_sex:sx,p_phone:ph,p_kind:kind,p_date:date,p_time:hhmm(time)})}catch(e){r={ok:false,err:'Network problem. Please try again or call the clinic.'}}
+  $('bkC').disabled=false;
+  if(r&&r.ok){$('bk2').style.display='none';$('bk3').style.display='block';
+    const w=kind+' on '+date+' at '+fmt(time);$('bkDone').textContent=w+'. The clinic will contact you if anything changes.';
+    $('bkWa').href='https://wa.me/916361129208?text='+encodeURIComponent('Hello, I booked '+w+' on the website for '+nm+'.');}
+  else{$('bkMsg').textContent=(r&&r.err)||'Could not book. Please call the clinic.';if(r&&r.taken){bkBack();pickDate(date)}}
+};
+rpc('booking_info').then(c=>{if(c&&c.on&&c.days&&c.days.length){cfg=c;document.querySelectorAll('.book-btn').forEach(b=>b.hidden=false)}}).catch(()=>{});
 })();
 </script>
+
 </body>
 </html>
